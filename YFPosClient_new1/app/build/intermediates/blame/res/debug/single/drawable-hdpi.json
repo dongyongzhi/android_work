@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_bg.9.png",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\drawable-hdpi\\dialog_bg.9.png"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\main_bg.png",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\drawable-hdpi\\main_bg.png"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\app_icon.png",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\drawable-hdpi\\app_icon.png"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\line1.png",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\drawable-hdpi\\line1.png"
+    }
+]

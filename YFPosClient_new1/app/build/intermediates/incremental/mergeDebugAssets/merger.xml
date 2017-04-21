@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="output"><source path="C:\Users\dyz\.android\build-cache\198b69a96f62bc66705b96fab2bdeeeed1c827f6\output\assets"/></dataSet><dataSet config="main"><source path="F:\android_work\YFPosClient_new1\app\src\main\assets"/><source path="F:\android_work\YFPosClient_new1\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="F:\android_work\YFPosClient_new1\app\src\debug\assets"/></dataSet></merger>

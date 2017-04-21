@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\off.jpg",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\drawable-hdpi\\off.jpg"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\on.jpg",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\drawable-hdpi\\on.jpg"
+    }
+]

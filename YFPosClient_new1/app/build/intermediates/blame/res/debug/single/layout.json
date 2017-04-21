@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\layout\\test.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_set_psam.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\layout\\activity_set_psam.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_read_money.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\layout\\activity_read_money.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sfcard.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\layout\\sfcard.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_header.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\layout\\com_header.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_print.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\layout\\activity_print.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\writemainkey.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\layout\\writemainkey.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\device_list.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\layout\\device_list.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_item.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\layout\\activity_main_item.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_psam.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\layout\\activity_psam.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_set_rfid.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\layout\\activity_set_rfid.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\device_name.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\layout\\device_name.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_set_ic.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\layout\\activity_set_ic.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_rfcard.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\layout\\activity_rfcard.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_identi.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\layout\\activity_identi.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\calmac.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\layout\\calmac.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\purchase.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\layout\\purchase.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\terminal_main.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\layout\\terminal_main.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_version.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\layout\\activity_version.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nfc_test.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\layout\\nfc_test.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\writekey.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\layout\\writekey.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_gettime.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\layout\\activity_gettime.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\progressdialog.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\layout\\progressdialog.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setdata.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\layout\\activity_setdata.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_3g.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\layout\\activity_3g.xml"
+    }
+]

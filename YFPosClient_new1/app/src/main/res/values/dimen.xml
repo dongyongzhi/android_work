@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="key_width">80dp</dimen>
+    <dimen name="key_heigth">66dp</dimen>
+    <dimen name="disp_height">68dp</dimen>
+    <dimen name="disp_font">22sp</dimen>
+
+</resources>

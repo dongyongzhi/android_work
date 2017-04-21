@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_out.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\anim\\push_bottom_out.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_in2.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\anim\\push_bottom_in2.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_in.xml",
+        "source": "F:\\android_work\\YFPosClient_new1\\app\\src\\main\\res\\anim\\push_bottom_in.xml"
+    }
+]

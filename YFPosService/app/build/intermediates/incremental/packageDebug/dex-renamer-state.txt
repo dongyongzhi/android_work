@@ -1,0 +1,7 @@
+#Fri Apr 21 13:35:50 CST 2017
+base.0=F\:\\android_work\\YFPosService\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_de970ba2b14677343eac42cb49c0d3cf27704718
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=F\:\\android_work\\YFPosService\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_09338a7306061d5a3f95d15ce8be488f7a89e042\\classes.dex
+base.1=F\:\\android_work\\YFPosService\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_09338a7306061d5a3f95d15ce8be488f7a89e042
+file.0=F\:\\android_work\\YFPosService\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_de970ba2b14677343eac42cb49c0d3cf27704718\\classes.dex

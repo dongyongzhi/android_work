@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello"></string>
+    <string name="app_name">怡丰MPOS服务</string>
+    <string name="main_show_hint">怡丰MPOS服务</string>
+    <string name="main_open">打开服务</string>
+    <string name="main_close">关闭服务</string>
+    
+    <string name="swiper_name">刷卡服务</string>
+    <string name="reflesh">刷新</string>
+    <string name="clear">清除</string>
+    <string name="enter">确认</string>
+    <string name="cancel">取消</string>
+    <string name="bkspace">退格</string>
+    <string name="system_dialog_title">系统提示</string>
+</resources>

@@ -1,0 +1,25 @@
+#Fri Apr 21 11:37:25 CST 2017
+renamed.7=classes2.dex
+renamed.6=classes7.dex
+renamed.5=classes5.dex
+renamed.4=classes6.dex
+renamed.3=classes3.dex
+renamed.2=classes4.dex
+renamed.1=classes8.dex
+renamed.0=classes.dex
+base.7=F\:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\gson-2.3.1_a946436dfab0bda51427104b4a0639d6714df3bf
+base.6=F\:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\java-json_14591b52d13c9819eee7aa7052d279b46bb752a5
+base.5=F\:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\commons-codec-1.6-jarjar_735420932093faed3c6cd7a01cd83c5a8e5734b4
+base.4=F\:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\IDCertification_fat_20170210_447db851dcfe44fcc1f844a6e0ecbf8f97a848e1
+base.3=F\:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-22.2.1_b9de779f1e97f088ad1fa14a1bacc6da62c0abf9
+base.2=F\:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-22.2.1_4604d3bdbf794645e5030494f10d7d923924e111
+base.1=F\:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\print_98e61e7ac5becfbde5b263ec167a8c0c2adb1631
+base.0=F\:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_1f258012aba13ff932844c82c924165cf1e0c070
+file.7=F\:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\gson-2.3.1_a946436dfab0bda51427104b4a0639d6714df3bf\\classes.dex
+file.6=F\:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\java-json_14591b52d13c9819eee7aa7052d279b46bb752a5\\classes.dex
+file.5=F\:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\commons-codec-1.6-jarjar_735420932093faed3c6cd7a01cd83c5a8e5734b4\\classes.dex
+file.4=F\:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\IDCertification_fat_20170210_447db851dcfe44fcc1f844a6e0ecbf8f97a848e1\\classes.dex
+file.3=F\:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-22.2.1_b9de779f1e97f088ad1fa14a1bacc6da62c0abf9\\classes.dex
+file.2=F\:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-22.2.1_4604d3bdbf794645e5030494f10d7d923924e111\\classes.dex
+file.1=F\:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\print_98e61e7ac5becfbde5b263ec167a8c0c2adb1631\\classes.dex
+file.0=F\:\\android_work\\YFPosClient_new1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_1f258012aba13ff932844c82c924165cf1e0c070\\classes.dex

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="key_bg">#efefef</color>
+    <color name="key_color">#f9f9f9</color>
+    <color name="key_color_pressed">#666666</color>
+    <color name="key_enter">#429fda</color>
+    <color name="key_enter_pressed">#666666</color>
+</resources>

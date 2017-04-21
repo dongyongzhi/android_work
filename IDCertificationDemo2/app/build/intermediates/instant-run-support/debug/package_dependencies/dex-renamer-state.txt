@@ -1,0 +1,13 @@
+#Thu Apr 20 17:00:26 CST 2017
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes.dex
+renamed.0=classes2.dex
+base.3=F\:\\android_work\\IDCertificationDemo2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\java-json_d16c826ce6afb72450aadb16a0eb6a6b1ccb4c13
+base.2=F\:\\android_work\\IDCertificationDemo2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\IDCertification_fat_20170210_eb1b0c1fb47e64c2389836a726226335abafa58b
+base.1=F\:\\android_work\\IDCertificationDemo2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\gson-2.3.1_a946436dfab0bda51427104b4a0639d6714df3bf
+base.0=F\:\\android_work\\IDCertificationDemo2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\commons-codec-1.6-jarjar_1acf40ca5ff422a62b80a22f4afd841e3f57353e
+file.3=F\:\\android_work\\IDCertificationDemo2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\java-json_d16c826ce6afb72450aadb16a0eb6a6b1ccb4c13\\classes.dex
+file.2=F\:\\android_work\\IDCertificationDemo2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\IDCertification_fat_20170210_eb1b0c1fb47e64c2389836a726226335abafa58b\\classes.dex
+file.1=F\:\\android_work\\IDCertificationDemo2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\gson-2.3.1_a946436dfab0bda51427104b4a0639d6714df3bf\\classes.dex
+file.0=F\:\\android_work\\IDCertificationDemo2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\commons-codec-1.6-jarjar_1acf40ca5ff422a62b80a22f4afd841e3f57353e\\classes.dex

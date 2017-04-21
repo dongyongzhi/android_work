@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">YFPosDemo</string>
+	<string name="error_configuration">请先设置正确的串口</string>
+    <string name="error_security">没有读写串口的权限</string>
+    <string name="error_unknown">串行端口不能打开</string>
+    
+    <string name="btn_cancel">取消</string>
+    <string name="btn_writekey">写入密钥</string>
+    <string name="btn_print">打印数据</string>
+    <string name="hint_purchase_money">消费金额</string>
+    <string name="btn_read_money">读取</string>
+    
+    <string name="reflesh">刷新</string>
+    <string name="clear">清除</string>
+    <string name="enter">确认</string>
+    <string name="cancel">取消</string>
+    <string name="bkspace">退格</string>
+</resources>

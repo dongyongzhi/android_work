@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\android_work\\YFPosService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\key_enter_selector.xml",
+        "source": "F:\\android_work\\YFPosService\\app\\src\\main\\res\\drawable\\key_enter_selector.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosService\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pinpad_key_selector.xml",
+        "source": "F:\\android_work\\YFPosService\\app\\src\\main\\res\\drawable\\pinpad_key_selector.xml"
+    }
+]

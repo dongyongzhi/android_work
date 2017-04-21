@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <include layout="@layout/com_header"/>
+    
+    <LinearLayout
+        style="@style/FillAndWrap"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <Button
+            android:id="@+id/btnPsamSt720"
+            style="@style/commonStyle"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="5dip"
+            android:text="PSAM-ST720" />
+
+        <Button
+            android:id="@+id/btnPsam"
+            style="@style/commonStyle"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="5dip"
+            android:text="PSAM卡信息 " />
+        
+         <TextView
+            android:id="@+id/tv_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:text=""
+            android:textColor="#333"
+            android:textSize="18.0sp" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

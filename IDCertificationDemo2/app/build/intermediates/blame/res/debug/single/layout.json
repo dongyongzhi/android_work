@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\android_work\\IDCertificationDemo2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\device_list.xml",
+        "source": "F:\\android_work\\IDCertificationDemo2\\app\\src\\main\\res\\layout\\device_list.xml"
+    },
+    {
+        "merged": "F:\\android_work\\IDCertificationDemo2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "F:\\android_work\\IDCertificationDemo2\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\android_work\\IDCertificationDemo2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nfc_test.xml",
+        "source": "F:\\android_work\\IDCertificationDemo2\\app\\src\\main\\res\\layout\\nfc_test.xml"
+    },
+    {
+        "merged": "F:\\android_work\\IDCertificationDemo2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\device_name.xml",
+        "source": "F:\\android_work\\IDCertificationDemo2\\app\\src\\main\\res\\layout\\device_name.xml"
+    }
+]

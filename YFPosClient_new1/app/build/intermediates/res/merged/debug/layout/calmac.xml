@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/com_header"/>
+     
+     <EditText
+        android:id="@+id/packData"
+        android:layout_width="fill_parent"
+        android:layout_height="200dip"
+        android:layout_marginTop="15dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:gravity="top"
+        android:hint="HEX字符串"
+        
+        android:text="020030013030343130020114350000000122313031040710040805078D00740000000000010050DCF53FC31F99C3534E3035B8EEB3CD5E634D086821A21FE961F9709481B702AC3AF863F8207B646D6911CF035C075E0E42D369AE226251E0B290CDA9A7B8366353A7C5A4167DAB354FD274451EFE2FCF001235507E1C31ABE10B562C642C6E0000000000" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dip"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btnCalMac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="计算" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/btn_cancel" />
+    </LinearLayout>
+
+    <TextView
+	        android:id="@+id/txtResult"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="15dip"
+	        android:layout_marginRight="15dip"
+	        android:layout_marginTop="6dip" />
+ 
+
+</LinearLayout>

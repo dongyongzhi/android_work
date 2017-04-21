@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\android_work\\YFPosService\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "F:\\android_work\\YFPosService\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosService\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pinpadshow.xml",
+        "source": "F:\\android_work\\YFPosService\\app\\src\\main\\res\\layout\\pinpadshow.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosService\\app\\build\\intermediates\\res\\merged\\debug\\layout\\progressdialog.xml",
+        "source": "F:\\android_work\\YFPosService\\app\\src\\main\\res\\layout\\progressdialog.xml"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosService\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_key_pad.xml",
+        "source": "F:\\android_work\\YFPosService\\app\\src\\main\\res\\layout\\pop_key_pad.xml"
+    }
+]

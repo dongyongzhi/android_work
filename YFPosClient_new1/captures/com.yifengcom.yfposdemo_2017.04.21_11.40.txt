@@ -1,0 +1,130 @@
+TASK com.yifengcom.yfposdemo id=16
+  ACTIVITY com.yifengcom.yfposdemo/.activity.IdentityAuthentication 20d44c26 pid=24389
+    Local Activity 350e36bf State:
+      mResumed=true mStopped=false mFinished=false
+      mLoadersStarted=true
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 ?mcc?mnc zh_CN ?layoutDir sw360dp w360dp h615dp 320dpi nrml long port finger -keyb/v/h -nav/h s.5}
+    FragmentManager misc state:
+      mActivity=com.yifengcom.yfposdemo.activity.IdentityAuthentication@350e36bf
+      mContainer=android.app.Activity$1@275b18c
+      mCurState=5 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=73796297 (22483 ms ago)
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{67d70d5 V.E..... R....... 0,0-720,1280}
+        android.widget.LinearLayout{158820ea V.E..... ........ 0,0-720,1280}
+          android.view.ViewStub{3f97fdb G.E..... ......I. 0,0-0,0 #1020379}
+          android.widget.FrameLayout{34925a78 V.E..... ........ 0,50-720,100}
+            android.widget.TextView{2ab14551 V.ED.... ........ 8,1-712,47 #1020016 android:id/title}
+          android.widget.FrameLayout{1e3f61b6 V.E..... ........ 0,100-720,1280 #1020002 android:id/content}
+            android.widget.LinearLayout{39863eb7 V.E..... ........ 0,0-720,1180}
+              android.widget.RelativeLayout{1dcea624 V.E..... ........ 20,20-700,420}
+                android.widget.GridLayout{b73e58d V.E..... ........ 20,20-640,346 #7f090006 app:id/gridLayout}
+                  android.widget.TextView{857e342 V.ED.... ........ 0,4-100,54}
+                  android.widget.TextView{1bb60f53 V.ED.... ........ 100,0-460,50 #7f090007 app:id/tv_name}
+                  android.widget.ImageView{32620090 V.ED.... ........ 460,0-620,262 #7f090008 app:id/iv_photo}
+                  android.widget.TextView{f464d89 V.ED.... ........ 0,58-100,108}
+                  android.widget.TextView{2d84f18e V.ED.... ........ 100,54-200,104 #7f090009 app:id/tv_sex}
+                  android.widget.TextView{5084daf V.ED.... ........ 200,58-300,108}
+                  android.widget.TextView{308e95bc V.ED.... ........ 300,54-400,104 #7f09000a app:id/tv_ehtnic}
+                  android.widget.TextView{29bd3945 V.ED.... ........ 0,112-100,162}
+                  android.widget.TextView{3d62989a V.ED.... ........ 100,108-228,158 #7f09000b app:id/tv_birthday}
+                  android.widget.TextView{e9615cb V.ED.... ........ 0,166-100,216}
+                  android.widget.TextView{168d51a8 V.ED.... ........ 100,162-460,262 #7f09000c app:id/tv_address}
+                  android.widget.TextView{38fd24c1 V.ED.... ........ 0,266-200,326}
+                  android.widget.TextView{1341a466 V.ED.... ........ 200,262-620,322 #7f09000d app:id/tv_number}
+              android.widget.RelativeLayout{3fee43a7 V.E..... ........ 20,440-700,840}
+                android.widget.TextView{b39e054 V.ED.... ........ 452,272-620,322 #7f09000e app:id/tv_org}
+                android.widget.TextView{3ef64bfd V.ED.... ........ 452,322-680,372 #7f09000f app:id/tv_date}
+              android.widget.TextView{1cb3a0f2 V.ED.... ........ 0,840-695,911 #7f090010 app:id/tv_result}
+              android.widget.LinearLayout{20b17343 V.E..... ........ 0,911-720,1007}
+                android.widget.Button{257eadc0 VFED..C. ........ 0,0-155,96 #7f090011 app:id/btn_otg}
+                android.widget.Button{3260aaf9 VFED..C. ........ 155,0-311,96 #7f090012 app:id/btn_bt}
+              android.widget.TextView{1cd6da3e V.ED.... ........ 0,1007-720,1078}
+    Looper (main, tid 1) {7ee009f}
+      (Total messages: 0, idling=false, quitting=false)
+
+  ACTIVITY com.yifengcom.yfposdemo/.activity.TerminalActivity 49aa053 pid=24389
+    Local Activity 1eb682ec State:
+      mResumed=false mStopped=true mFinished=false
+      mLoadersStarted=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 ?mcc?mnc zh_CN ?layoutDir sw360dp w360dp h615dp 320dpi nrml long port finger -keyb/v/h -nav/h s.5}
+    FragmentManager misc state:
+      mActivity=com.yifengcom.yfposdemo.activity.TerminalActivity@1eb682ec
+      mContainer=android.app.Activity$1@3e80e5ec
+      mCurState=3 mStateSaved=true mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=73796297 (22494 ms ago)
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{2377fdb5 I.E..... R....... 0,0-720,1280}
+        android.widget.LinearLayout{18625c4a V.E..... ........ 0,0-720,1280}
+          android.view.ViewStub{53c07bb G.E..... ......I. 0,0-0,0 #1020379}
+          android.widget.FrameLayout{3a8c74d8 V.E..... ........ 0,50-720,1280 #1020002 android:id/content}
+            android.widget.ScrollView{3077c031 VFED.... ........ 0,0-720,1230}
+              android.widget.LinearLayout{3671f316 V.E..... ........ 0,0-720,1250}
+                android.widget.LinearLayout{3f996497 V.E..... ........ 0,0-720,90}
+                  android.widget.LinearLayout{34c00684 V.E..... ........ 0,0-720,90}
+                    android.widget.TextView{5d72e6d V.ED.... ........ 293,20-437,69 #7f090013 app:id/title_name}
+                android.widget.LinearLayout{22122aa2 V.E..... ........ 30,110-690,206}
+                  android.widget.Button{2605b333 VFED..C. ........ 0,0-660,96 #7f090046 app:id/btnDeviceInfo}
+                  android.widget.Button{397906f0 GFED..C. ......I. 0,0-0,0 #7f090047 app:id/btnCache}
+                  android.widget.Button{26454469 GFED..C. ......I. 0,0-0,0 #7f090048 app:id/btnClearCache}
+                android.widget.LinearLayout{388c4eee V.E..... ........ 30,226-690,322}
+                  android.widget.Button{dde4f8f VFED..C. ........ 0,0-660,96 #7f090049 app:id/btnSetData}
+                  android.widget.Button{3b7fa21c GFED..C. ......I. 0,0-0,0 #7f09004a app:id/btnReadData}
+                  android.widget.Button{3664be25 GFED..C. ......I. 0,0-0,0 #7f09004b app:id/btnReset}
+                android.widget.LinearLayout{10726bfa V.E..... ........ 30,342-690,438}
+                  android.widget.Button{1afa55ab VFED..C. ........ 0,0-220,96 #7f09004c app:id/btnGetTime}
+                  android.widget.Button{2ff2c408 VFED..C. ........ 220,0-440,96 #7f09004d app:id/btnSetTime}
+                  android.widget.Button{84817a1 VFED..C. ........ 440,0-660,96 #7f090016 app:id/btnPrint}
+                android.widget.LinearLayout{256b4dc6 V.E..... ........ 30,458-690,554}
+                  android.widget.Button{d86a187 GFED..C. ......I. 0,0-0,0 #7f090017 app:id/btnCancel}
+                  android.widget.Button{3cf418b4 VFED..C. ........ 0,0-660,96 #7f09004e app:id/btnUpdate}
+                  android.widget.Button{22ad8cdd GFED..C. ......I. 0,0-0,0 #7f09004f app:id/btnAutoUpdate}
+                android.widget.LinearLayout{34be8052 V.E..... ........ 30,574-690,670}
+                  android.widget.Button{11a1cf23 VFED..C. ........ 0,0-218,96 #7f090050 app:id/btnWriteMainKey}
+                  android.widget.Button{27140c20 VFED..C. ........ 218,0-465,96 #7f090051 app:id/btnWriteKey}
+                  android.widget.Button{3ffb19d9 VFED..C. ........ 465,0-660,96 #7f090034 app:id/btnCalMac}
+                android.widget.LinearLayout{16a04f9e V.E..... ........ 30,690-690,786}
+                  android.widget.Button{2cb83a7f VFED..C. ........ 0,0-246,96 #7f090052 app:id/btnSwiping}
+                  android.widget.Button{297dca4c GFED..C. ......I. 0,0-0,0 #7f090053 app:id/btnSwipingAndPrint}
+                  android.widget.Button{fa7a95 VFED..C. ........ 246,0-660,96 #7f090054 app:id/btnReadMoney}
+                android.widget.LinearLayout{203dc7aa V.E..... ........ 30,806-690,902}
+                  android.widget.Button{249fff9b VFED..C. ........ 0,0-302,96 #7f090055 app:id/btnRFCard}
+                  android.widget.Button{24e33f38 VFED..C. ........ 302,0-660,96 #7f090056 app:id/btnIDCard}
+                android.widget.LinearLayout{f552b11 V.E..... ........ 30,922-690,1018}
+                  android.widget.Button{1a88b476 VFED..C. ........ 0,0-660,96 #7f090057 app:id/btnPSAM}
+                android.widget.LinearLayout{3c74fa77 V.E..... ........ 30,1038-690,1134}
+                  android.widget.Button{112916e4 VFED..C. ........ 0,0-223,96 #7f090058 app:id/btnSetRFID}
+                  android.widget.Button{2bd0674d VFED..C. ........ 223,0-467,96 #7f090059 app:id/btnSetPSAM}
+                  android.widget.Button{19c3a202 VFED..C. ........ 467,0-660,96 #7f09005a app:id/btnSetIC}
+                android.widget.LinearLayout{2334c713 V.E..... ........ 30,1154-690,1250}
+                  android.widget.Button{1dd2bd50 VFED..C. ........ 0,0-660,96 #7f09005b app:id/btnTestDestroy}
+                android.widget.LinearLayout{24492b49 G.E..... ......I. 0,0-0,0}
+                  android.widget.Button{1cddc4e VFED..C. ......I. 0,0-0,0 #7f09005c app:id/btnHft}
+    Looper (main, tid 1) {7ee009f}
+      (Total messages: 0, idling=false, quitting=false)

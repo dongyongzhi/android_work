@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="reflesh">ref</string>
+    <string name="clear">cle</string>
+    <string name="enter">ent</string>
+    <string name="cancel">cal</string>
+    <string name="bkspace">back</string>
+</resources>

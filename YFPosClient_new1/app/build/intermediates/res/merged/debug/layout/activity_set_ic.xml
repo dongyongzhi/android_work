@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <include layout="@layout/com_header" />
+
+    <LinearLayout
+        style="@style/FillAndWrap"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <Button
+            android:id="@+id/btnOpen"
+            style="@style/commonStyle"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="5dip"
+            android:text="打开IC寻卡" />
+
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="6dip"
+            android:text="" />
+        
+
+        <Button
+            android:id="@+id/btnCmdSet"
+            style="@style/commonStyle"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="5dip"
+            android:text="IC卡数据交互 " />
+        
+        <EditText
+            android:id="@+id/packData"
+            android:layout_width="fill_parent"
+            android:layout_height="200dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="15dip"
+            android:gravity="top"
+            android:hint="IC卡交互数据HEX字符串"
+            android:text="00a404000e315041592E5359532E4444463031" />
+        
+        <TextView
+            android:id="@+id/txtResult1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="6dip"
+            android:text="" />
+        
+        <Button
+            android:id="@+id/btnClose"
+            style="@style/commonStyle"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="5dip"
+            android:text="IC卡下电 " />
+        
+        <TextView
+            android:id="@+id/txtResult2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="6dip"
+            android:text="" />
+        
+        <Button
+            android:id="@+id/btnClear"
+            style="@style/commonStyle"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="5dip"
+            android:text="清除提示信息 " />
+    </LinearLayout>
+
+</LinearLayout>

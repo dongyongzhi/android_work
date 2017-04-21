@@ -1,0 +1,7 @@
+#Thu Apr 20 17:05:28 CST 2017
+base.0=F\:\\android_work\\IDCertificationDemo2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_1c414f6b9f4dd41b033e05169d40f92f230c6929
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=F\:\\android_work\\IDCertificationDemo2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_b3c39bb557220e0627ec2e488978dd2c3dee1f0b\\classes.dex
+base.1=F\:\\android_work\\IDCertificationDemo2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_b3c39bb557220e0627ec2e488978dd2c3dee1f0b
+file.0=F\:\\android_work\\IDCertificationDemo2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_1c414f6b9f4dd41b033e05169d40f92f230c6929\\classes.dex

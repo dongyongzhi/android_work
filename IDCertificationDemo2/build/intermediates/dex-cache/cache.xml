@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="F:\android_work\IDCertificationDemo2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6e9044b06da800a25c3c667e70d2183e903b5023">
+        <dex dex="F:\android_work\IDCertificationDemo2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_1c414f6b9f4dd41b033e05169d40f92f230c6929\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android_work\IDCertificationDemo2\app\libs\commons-codec-1.6-jarjar.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f9ce0bfa151fedaffb3a474ec334da1c4c3f6c16">
+        <dex dex="F:\android_work\IDCertificationDemo2\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-codec-1.6-jarjar_1acf40ca5ff422a62b80a22f4afd841e3f57353e\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\android_work\IDCertificationDemo2\app\libs\commons-codec-1.6-jarjar.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f9ce0bfa151fedaffb3a474ec334da1c4c3f6c16">
+        <dex dex="F:\android_work\IDCertificationDemo2\app\build\intermediates\pre-dexed\debug\commons-codec-1.6-jarjar_1acf40ca5ff422a62b80a22f4afd841e3f57353e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android_work\IDCertificationDemo2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="F:\android_work\IDCertificationDemo2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_b3c39bb557220e0627ec2e488978dd2c3dee1f0b\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\android_work\IDCertificationDemo2\app\libs\java-json.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="edad9c5de6fb8df07c535a47045956026011ffa3">
+        <dex dex="F:\android_work\IDCertificationDemo2\app\build\intermediates\pre-dexed\debug\java-json_d16c826ce6afb72450aadb16a0eb6a6b1ccb4c13.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android_work\IDCertificationDemo2\app\libs\IDCertification_fat_20170210.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fcfa20ac6d79b791db8cf3c053705f39d454c0fb">
+        <dex dex="F:\android_work\IDCertificationDemo2\app\build\intermediates\transforms\dex\debug\folders\1000\2\IDCertification_fat_20170210_eb1b0c1fb47e64c2389836a726226335abafa58b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android_work\IDCertificationDemo2\app\libs\java-json.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="edad9c5de6fb8df07c535a47045956026011ffa3">
+        <dex dex="F:\android_work\IDCertificationDemo2\app\build\intermediates\transforms\dex\debug\folders\1000\2\java-json_d16c826ce6afb72450aadb16a0eb6a6b1ccb4c13\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\android_work\IDCertificationDemo2\app\libs\IDCertification_fat_20170210.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fcfa20ac6d79b791db8cf3c053705f39d454c0fb">
+        <dex dex="F:\android_work\IDCertificationDemo2\app\build\intermediates\pre-dexed\debug\IDCertification_fat_20170210_eb1b0c1fb47e64c2389836a726226335abafa58b.jar" />
+    </item>
+
+</items>

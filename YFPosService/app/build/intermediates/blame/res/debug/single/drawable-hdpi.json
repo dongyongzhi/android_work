@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\android_work\\YFPosService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg_chat.png",
+        "source": "F:\\android_work\\YFPosService\\app\\src\\main\\res\\drawable-hdpi\\bg_chat.png"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\sys_warning.png",
+        "source": "F:\\android_work\\YFPosService\\app\\src\\main\\res\\drawable-hdpi\\sys_warning.png"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "F:\\android_work\\YFPosService\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\android_work\\YFPosService\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_bg.9.png",
+        "source": "F:\\android_work\\YFPosService\\app\\src\\main\\res\\drawable-hdpi\\dialog_bg.9.png"
+    }
+]

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        style="@style/FillAndWrap"
+        android:layout_alignParentBottom="true"
+        android:background="@color/key_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txt_pwd"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/disp_height"
+            android:background="#666"
+            android:gravity="center"
+            android:password="true"
+            android:singleLine="true"
+            android:textColor="#ffff"
+            android:textSize="@dimen/disp_font" />
+
+        <LinearLayout
+            android:id="@+id/key_pad"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_1"
+                    style="@style/PopKeyPadStyle" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/key_bg" />
+
+                <Button
+                    android:id="@+id/btn_4"
+                    style="@style/PopKeyPadStyle" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/key_bg" />
+
+                <Button
+                    android:id="@+id/btn_7"
+                    style="@style/PopKeyPadStyle" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/key_bg" />
+
+                <Button style="@style/PopKeyPadStyle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="1dip"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_2"
+                    style="@style/PopKeyPadStyle" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/key_bg" />
+
+                <Button
+                    android:id="@+id/btn_5"
+                    style="@style/PopKeyPadStyle" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/key_bg" />
+
+                <Button
+                    android:id="@+id/btn_8"
+                    style="@style/PopKeyPadStyle" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/key_bg" />
+
+                <Button
+                    android:id="@+id/btn_0"
+                    style="@style/PopKeyPadStyle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="1dip"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_3"
+                    style="@style/PopKeyPadStyle" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/key_bg" />
+
+                <Button
+                    android:id="@+id/btn_6"
+                    style="@style/PopKeyPadStyle" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/key_bg" />
+
+                <Button
+                    android:id="@+id/btn_9"
+                    style="@style/PopKeyPadStyle" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/key_bg" />
+
+                <Button style="@style/PopKeyPadStyle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="1dip"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_del"
+                    style="@style/PopKeyPadStyle"
+                    android:text="@string/bkspace" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/key_bg" />
+
+                <Button
+                    android:id="@+id/btn_cancel"
+                    style="@style/PopKeyPadStyle"
+                    android:text="@string/cancel" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/key_bg" />
+
+                <Button
+                    android:id="@+id/btn_enter"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/key_enter_selector"
+                    android:text="@string/enter"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

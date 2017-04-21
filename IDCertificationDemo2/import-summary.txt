@@ -1,0 +1,80 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* IDCertification.properties
+* IDCertificationDemo.iml
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+gson-2.3.1.jar => com.google.code.gson:gson:2.3.1
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* libs\arm64-v8a\libcmccreader.so => app\src\main\jniLibs\arm64-v8a\libcmccreader.so
+* libs\arm64-v8a\libidReader.so => app\src\main\jniLibs\arm64-v8a\libidReader.so
+* libs\arm64-v8a\libserialPortReader.so => app\src\main\jniLibs\arm64-v8a\libserialPortReader.so
+* libs\armeabi-v7a\libcmccreader.so => app\src\main\jniLibs\armeabi-v7a\libcmccreader.so
+* libs\armeabi-v7a\libidReader.so => app\src\main\jniLibs\armeabi-v7a\libidReader.so
+* libs\armeabi-v7a\libserialPortReader.so => app\src\main\jniLibs\armeabi-v7a\libserialPortReader.so
+* libs\armeabi\libcmccreader.so => app\src\main\jniLibs\armeabi\libcmccreader.so
+* libs\armeabi\libidReader.so => app\src\main\jniLibs\armeabi\libidReader.so
+* libs\armeabi\libserialPortReader.so => app\src\main\jniLibs\armeabi\libserialPortReader.so
+* libs\commons-codec-1.6-jarjar.jar => app\libs\commons-codec-1.6-jarjar.jar
+* libs\IDCertification_fat_20170210.jar => app\libs\IDCertification_fat_20170210.jar
+* libs\java-json.jar => app\libs\java-json.jar
+* libs\mips64\libcmccreader.so => app\src\main\jniLibs\mips64\libcmccreader.so
+* libs\mips64\libidReader.so => app\src\main\jniLibs\mips64\libidReader.so
+* libs\mips64\libserialPortReader.so => app\src\main\jniLibs\mips64\libserialPortReader.so
+* libs\mips\libcmccreader.so => app\src\main\jniLibs\mips\libcmccreader.so
+* libs\mips\libidReader.so => app\src\main\jniLibs\mips\libidReader.so
+* libs\mips\libserialPortReader.so => app\src\main\jniLibs\mips\libserialPortReader.so
+* libs\x86\libcmccreader.so => app\src\main\jniLibs\x86\libcmccreader.so
+* libs\x86\libidReader.so => app\src\main\jniLibs\x86\libidReader.so
+* libs\x86\libserialPortReader.so => app\src\main\jniLibs\x86\libserialPortReader.so
+* libs\x86_64\libcmccreader.so => app\src\main\jniLibs\x86_64\libcmccreader.so
+* libs\x86_64\libidReader.so => app\src\main\jniLibs\x86_64\libidReader.so
+* libs\x86_64\libserialPortReader.so => app\src\main\jniLibs\x86_64\libserialPortReader.so
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* src\com\yifengcom\yfpos\service\CardModel.aidl => app\src\main\aidl\com\yifengcom\yfpos\service\CardModel.aidl
+* src\com\yifengcom\yfpos\service\DeviceModel.aidl => app\src\main\aidl\com\yifengcom\yfpos\service\DeviceModel.aidl
+* src\com\yifengcom\yfpos\service\ICallBack.aidl => app\src\main\aidl\com\yifengcom\yfpos\service\ICallBack.aidl
+* src\com\yifengcom\yfpos\service\IService.aidl => app\src\main\aidl\com\yifengcom\yfpos\service\IService.aidl
+* src\com\yifengcom\yfpos\service\WorkKey.aidl => app\src\main\aidl\com\yifengcom\yfpos\service\WorkKey.aidl
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

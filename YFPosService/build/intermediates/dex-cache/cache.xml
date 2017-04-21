@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="F:\android_work\YFPosService\app\libs\afinal_0.5.1_bin.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ae398c74701392473b9cb488c76a92576d6f548c">
+        <dex dex="F:\android_work\YFPosService\app\build\intermediates\transforms\dex\debug\folders\1000\2\afinal_0.5.1_bin_1c54c3434a4876254cd26c5ff9d1d277c9c8604a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android_work\YFPosService\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="F:\android_work\YFPosService\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_09338a7306061d5a3f95d15ce8be488f7a89e042\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android_work\YFPosService\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9b9c8cffb88d11e9f1f829fc386a913c919de90a">
+        <dex dex="F:\android_work\YFPosService\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_de970ba2b14677343eac42cb49c0d3cf27704718\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <include layout="@layout/com_header" />
+
+    <ScrollView style="@style/Fill" >
+
+        <LinearLayout
+            style="@style/FillAndWrap"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnPsamReset1"
+                    style="@style/commonStyle"
+                    android:layout_weight="1"
+                    android:text="复位卡1" />
+
+                <Button
+                    android:id="@+id/btnPsamReset2"
+                    style="@style/commonStyle"
+                    android:layout_weight="1"
+                    android:text="复位卡2" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="6dip"
+                android:text="" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnPsamRead1"
+                    style="@style/commonStyle"
+                    android:layout_weight="1"
+                    android:text="读卡1" />
+
+                <Button
+                    android:id="@+id/btnPsamRead2"
+                    style="@style/commonStyle"
+                    android:layout_weight="1"
+                    android:text="读卡2" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/packData1"
+                android:layout_width="fill_parent"
+                android:layout_height="100dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="15dip"
+                android:gravity="top"
+                android:hint="读PSAM卡HEX字符串"
+                android:text="00C0000032" />
+
+            <TextView
+                android:id="@+id/txtResult1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="6dip"
+                android:text="" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnPsamWrite1"
+                    style="@style/commonStyle"
+                    android:layout_weight="1"
+                    android:text="写卡1" />
+
+                <Button
+                    android:id="@+id/btnPsamWrite2"
+                    style="@style/commonStyle"
+                    android:layout_weight="1"
+                    android:text="写卡2" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/packData2"
+                android:layout_width="fill_parent"
+                android:layout_height="100dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="15dip"
+                android:gravity="top"
+                android:hint="写PSAM卡HEX字符串"
+                android:text="00A4000002df01" />
+
+            <TextView
+                android:id="@+id/txtResult2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="6dip"
+                android:text="" />
+
+            <Button
+                android:id="@+id/btnClear"
+                style="@style/commonStyle"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="5dip"
+                android:text="清除提示信息 " />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <include layout="@layout/com_header" />
+    <LinearLayout style="@style/FillAndWrap" android:orientation="vertical" android:padding="10dip" >
+        <LinearLayout style="@style/FillAndWrap" android:gravity="center_vertical">
+            <TextView style="@style/commonStyle" android:text="服务端IP地址："/>
+            <EditText android:id="@+id/edt_ip" style="@style/commonStyle" android:layout_weight="1" android:maxLength="20" android:text="www.baidu.com" />
+        </LinearLayout>
+        <LinearLayout style="@style/FillAndWrap" android:gravity="center_vertical" android:layout_marginTop="5dip">
+            <TextView style="@style/commonStyle" android:text="超时时间（秒）："  />
+            <EditText android:id="@+id/edt_time" style="@style/commonStyle" android:layout_weight="1" android:text="5" android:maxLength="2"/>
+        </LinearLayout>
+        <Button android:id="@+id/btnPing" style="@style/commonStyle" android:layout_width="fill_parent" android:text="检测 " android:layout_marginTop="5dip"/>
+    </LinearLayout>
+    
+    <ScrollView style="@style/Fill">
+        <LinearLayout style="@style/Fill">
+        	<TextView android:id="@+id/txt_result" style="@style/commonStyle" android:layout_width="fill_parent" android:text=" " android:layout_marginTop="5dip" />
+    	</LinearLayout>
+    </ScrollView>
+</LinearLayout>

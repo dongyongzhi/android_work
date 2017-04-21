@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        applicationId "com.yifengcom.yfposdemo"
+        minSdkVersion 22
+        targetSdkVersion 22
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("E:/android_develop/signature/demo.jks")
+            storePassword '123456'
+            keyAlias 'demo'
+            keyPassword '123456'
+        }
+
+        debug {
+            storeFile file("E:/android_develop/signature/demo.jks")
+            storePassword '123456'
+            keyAlias 'demo'
+            keyPassword '123456'
+        }
+    }
+
+
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:22.2.1'
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile files('libs/commons-codec-1.6-jarjar.jar')
+    compile files('libs/IDCertification_fat_20170210.jar')
+    compile files('libs/java-json.jar')
+    compile files('libs/print.jar')
+}

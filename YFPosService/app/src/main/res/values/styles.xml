@@ -1,0 +1,36 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="FillAndWrap">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Fill">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+    <style name="Wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="PopKeyPadStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">70dip</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">@dimen/disp_font</item>
+        <item name="android:background">@drawable/pinpad_key_selector</item>
+    </style>
+    
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+		<item name="android:windowFrame">@null</item>
+		<item name="android:windowIsFloating">true</item>
+		<item name="android:windowIsTranslucent">false</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:backgroundDimEnabled">false</item>
+		<!-- <item name="android:windowBackground">@color/trans</item> -->
+		<!--<item name="android:windowBackground">@drawable/sys_dialog_bg</item> -->
+	</style>
+
+</resources>

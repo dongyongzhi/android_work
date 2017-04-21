@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bkspace">back</string>
+    <string name="cancel">cal</string>
+    <string name="clear">cle</string>
+    <string name="enter">ent</string>
+    <string name="reflesh">ref</string>
+</resources>

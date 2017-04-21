@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="key_bg">#efefef</color>
+    <color name="key_color">#f9f9f9</color>
+    <color name="key_color_pressed">#666666</color>
+    <color name="key_enter">#429fda</color>
+    <color name="key_enter_pressed">#666666</color>
+    <dimen name="disp_font">22sp</dimen>
+    <dimen name="disp_height">68dp</dimen>
+    <dimen name="key_heigth">66dp</dimen>
+    <dimen name="key_width">80dp</dimen>
+    <string name="app_name">怡丰MPOS服务</string>
+    <string name="bkspace">退格</string>
+    <string name="cancel">取消</string>
+    <string name="clear">清除</string>
+    <string name="enter">确认</string>
+    <string name="hello"/>
+    <string name="main_close">关闭服务</string>
+    <string name="main_open">打开服务</string>
+    <string name="main_show_hint">怡丰MPOS服务</string>
+    <string name="reflesh">刷新</string>
+    <string name="swiper_name">刷卡服务</string>
+    <string name="system_dialog_title">系统提示</string>
+    <style name="Fill">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="FillAndWrap">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="PopKeyPadStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">70dip</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">@dimen/disp_font</item>
+        <item name="android:background">@drawable/pinpad_key_selector</item>
+    </style>
+    <style name="Wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+		<item name="android:windowFrame">@null</item>
+		<item name="android:windowIsFloating">true</item>
+		<item name="android:windowIsTranslucent">false</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:backgroundDimEnabled">false</item>
+		<!-- <item name="android:windowBackground">@color/trans</item> -->
+		<!--<item name="android:windowBackground">@drawable/sys_dialog_bg</item> -->
+	</style>
+</resources>
