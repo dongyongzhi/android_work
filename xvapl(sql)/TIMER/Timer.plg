@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Timer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2C1.tmp" with contents
+[
+/nologo /MT /W3 /GX /Zi /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "TIMER_EXPORTS" /FR"Release/" /Fp"Release/Timer.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\×ÀÃæ\xvapl(sql)\TIMER\log.c"
+"C:\Documents and Settings\Administrator\×ÀÃæ\xvapl(sql)\TIMER\Timer.c"
+"C:\Documents and Settings\Administrator\×ÀÃæ\xvapl(sql)\public\yftrace.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2C1.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2C2.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/Timer.pdb" /map:"Release/Timer.map" /debug /machine:I386 /out:"C:/yfcomm/SPP/Timer.dll" /implib:"Release/Timer.lib" 
+".\Release\log.obj"
+".\Release\Timer.obj"
+".\Release\yftrace.obj"
+"..\Comm\Release\Comm.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2C2.tmp"
+<h3>Output Window</h3>
+Compiling...
+log.c
+Timer.c
+yftrace.c
+Linking...
+   Creating library Release/Timer.lib and object Release/Timer.exp
+
+
+
+<h3>Results</h3>
+Timer.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[Timer.dsp]
+SCC_Aux_Path = "\\192.168.1.200\后台vss\"
+SCC_Project_Name = "$/2012/YF-XVAPL/YF-XVAPL V2.0.1/01源代码/xvapl(sql)/TIMER", VAMDAAAA
+
+[Timer.dsw]
+SCC_Aux_Path = "\\192.168.1.200\后台vss\"
+SCC_Project_Name = "$/2012/YF-XVAPL/YF-XVAPL V2.0.1/01源代码/xvapl(sql)/TIMER", VAMDAAAA

@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Comm - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1A8.tmp" with contents
+[
+/nologo /MT /W3 /GX /Zi /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "COMM_EXPORTS" /FR"Release/" /Fp"Release/Comm.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\项目\XVAPL(2014-12-22)\xvapl(sql)\Comm\Comm.c"
+"D:\项目\XVAPL(2014-12-22)\xvapl(sql)\Comm\ReadConfig.c"
+"D:\项目\XVAPL(2014-12-22)\xvapl(sql)\public\yftrace.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1A8.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1A9.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/Comm.pdb" /map:"Release/Comm.map" /debug /machine:I386 /out:"C:/yfcomm/SPP/Comm.dll " /implib:"Release/Comm.lib" 
+".\Release\Comm.obj"
+".\Release\ReadConfig.obj"
+".\Release\yftrace.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1A9.tmp"
+<h3>Output Window</h3>
+Compiling...
+Comm.c
+ReadConfig.c
+yftrace.c
+Linking...
+   Creating library Release/Comm.lib and object Release/Comm.exp
+Creating command line "bscmake.exe /nologo /o"Release/Comm.bsc"  ".\Release\Comm.sbr" ".\Release\ReadConfig.sbr" ".\Release\yftrace.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Comm.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

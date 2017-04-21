@@ -1,0 +1,94 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SPP - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP26E.tmp" with contents
+[
+/nologo /MT /W3 /GX /Zi /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/SPP.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\项目\扬州\扬州、淮安兼容XVAPL版本\xvapl(sql)\SPP\cdr.c"
+"D:\项目\扬州\扬州、淮安兼容XVAPL版本\xvapl(sql)\SPP\DBAP.c"
+"D:\项目\扬州\扬州、淮安兼容XVAPL版本\xvapl(sql)\SPP\DBI.c"
+"D:\项目\扬州\扬州、淮安兼容XVAPL版本\xvapl(sql)\SPP\GLM_Log.c"
+"D:\项目\扬州\扬州、淮安兼容XVAPL版本\xvapl(sql)\SPP\log.c"
+"D:\项目\扬州\扬州、淮安兼容XVAPL版本\xvapl(sql)\SPP\NodeComm.c"
+"D:\项目\扬州\扬州、淮安兼容XVAPL版本\xvapl(sql)\public\pMsg.c"
+"D:\项目\扬州\扬州、淮安兼容XVAPL版本\xvapl(sql)\SPP\Protocol.c"
+"D:\项目\扬州\扬州、淮安兼容XVAPL版本\xvapl(sql)\SPP\SPP.c"
+"D:\项目\扬州\扬州、淮安兼容XVAPL版本\xvapl(sql)\public\spp_des.c"
+"D:\项目\扬州\扬州、淮安兼容XVAPL版本\xvapl(sql)\SPP\xvapl_monitor.c"
+"D:\项目\扬州\扬州、淮安兼容XVAPL版本\xvapl(sql)\SPP\xvapl_slp.c"
+"D:\项目\扬州\扬州、淮安兼容XVAPL版本\xvapl(sql)\SPP\Xvapl_TraceThread.c"
+"D:\项目\扬州\扬州、淮安兼容XVAPL版本\xvapl(sql)\public\yftrace.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP26E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP26F.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib NTWDBLIB.LIB LIBCMT.LIB MSVCRT.LIB /nologo /subsystem:windows /incremental:no /pdb:"Release/SPP.pdb" /map:"Release/SPP.map" /debug /machine:I386 /out:"C:/yfcomm/SPP/SPP.exe" 
+".\Release\cdr.obj"
+".\Release\DBAP.obj"
+".\Release\DBI.obj"
+".\Release\GLM_Log.obj"
+".\Release\log.obj"
+".\Release\NodeComm.obj"
+".\Release\pMsg.obj"
+".\Release\Protocol.obj"
+".\Release\SPP.obj"
+".\Release\spp_des.obj"
+".\Release\xvapl_monitor.obj"
+".\Release\xvapl_slp.obj"
+".\Release\Xvapl_TraceThread.obj"
+".\Release\yftrace.obj"
+"..\Comm\Release\Comm.lib"
+"..\TIMER\Release\Timer.lib"
+"..\oci\lib\msvc\oci.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP26F.tmp"
+<h3>Output Window</h3>
+Compiling...
+cdr.c
+DBAP.c
+DBI.c
+GLM_Log.c
+log.c
+NodeComm.c
+pMsg.c
+Protocol.c
+SPP.c
+spp_des.c
+xvapl_monitor.c
+xvapl_slp.c
+Xvapl_TraceThread.c
+yftrace.c
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP271.tmp" with contents
+[
+/nologo /o"Release/SPP.bsc" 
+".\Release\cdr.sbr"
+".\Release\DBAP.sbr"
+".\Release\DBI.sbr"
+".\Release\GLM_Log.sbr"
+".\Release\log.sbr"
+".\Release\NodeComm.sbr"
+".\Release\pMsg.sbr"
+".\Release\Protocol.sbr"
+".\Release\SPP.sbr"
+".\Release\spp_des.sbr"
+".\Release\xvapl_monitor.sbr"
+".\Release\xvapl_slp.sbr"
+".\Release\Xvapl_TraceThread.sbr"
+".\Release\yftrace.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP271.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+SPP.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

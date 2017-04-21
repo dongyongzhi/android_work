@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[cdemo81.dsp]
+SCC_Aux_Path = "\\192.168.1.200\后台vss\"
+SCC_Project_Name = "$/2012/YF-XVAPL/YF-XVAPL V2.0.1/01源代码/xvapl(sql)/oci/samples", NPLDAAAA
+
+[cdemo81.dsw]
+SCC_Aux_Path = "\\192.168.1.200\后台vss\"
+SCC_Project_Name = "$/2012/YF-XVAPL/YF-XVAPL V2.0.1/01源代码/xvapl(sql)/oci/samples", NPLDAAAA
