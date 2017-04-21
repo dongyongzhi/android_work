@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <Button
+            android:id="@+id/bt_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bt_normal"
+            android:gravity="center"
+            android:text="当日"
+            android:textColor="#ff2472a0" />
+
+        <Button
+            android:id="@+id/bt_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bt_normal"
+            android:gravity="center"
+            android:text="当月"
+            android:textColor="#ff2472a0" />
+
+        <Button
+            android:id="@+id/bt_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bt_normal"
+            android:gravity="center"
+            android:text="历史"
+            android:textColor="#ff2472a0" />
+
+</LinearLayout>

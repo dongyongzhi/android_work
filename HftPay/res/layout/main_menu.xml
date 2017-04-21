@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.hftcom"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F7F7F7" >
+
+    <LinearLayout
+        android:id="@+id/top"
+        style="@style/fill_wrap_style"
+        android:background="@drawable/top_tilte_bg"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true" >
+
+        <ImageView
+            android:id="@+id/iv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/title"
+            android:contentDescription="@string/app_name" />
+
+    </LinearLayout>
+    
+    <!-- 滑动广告 -->
+    <RelativeLayout
+        android:id="@+id/advert"
+        android:layout_width="fill_parent"
+        android:layout_height="120dip"
+        android:layout_below="@+id/top" >
+
+        <com.hftcom.widget.ViewFlow
+            android:id="@+id/viewflow"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="0dip"
+            android:background="@drawable/main_advert_linebg"
+            android:gravity="center_vertical|right"
+            android:padding="3dip" >
+
+            <com.hftcom.widget.CircleFlowIndicator
+                android:id="@+id/viewflowindic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                app:activeColor="#0783BB"
+                app:activeType="fill"
+                app:circleSeparation="20dip"
+                app:inactiveColor="#ffffff"
+                app:inactiveType="fill"
+                android:padding="2dip"
+                app:radius="4dip" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- 主菜单-九宫格 -->
+
+    <LinearLayout
+        style="@style/fill_style"
+        android:layout_above="@+id/included1"
+        android:layout_below="@id/advert"
+        android:gravity="center"
+        android:padding="5dip" >
+
+        <GridView
+            android:id="@+id/gridview"
+            style="@style/fill_style"
+            android:gravity="center"
+            android:scrollbars="none" />
+    </LinearLayout>
+    
+    <RelativeLayout android:layout_width="fill_parent"
+		android:id="@+id/included1" android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true">
+		<include layout="@layout/bottom_menu" />
+	</RelativeLayout>
+
+</RelativeLayout>

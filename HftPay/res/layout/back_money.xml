@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:id="@+id/tip_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/mEditReferenceNo"
+                style="@style/trans_input"
+                android:hint="@string/hintReferenceNumber"
+                android:inputType="number" />
+
+            <TextView
+                style="@style/legend"
+                android:text="@string/legend_trans_referenceno" />
+
+            <!-- 原交易日期 -->
+
+            <EditText
+                android:id="@+id/mEditTransDate"
+                style="@style/trans_input"
+                android:hint="@string/hintTransDate"
+                android:inputType="date" />
+
+            <TextView
+                style="@style/trans_input_lable"
+                android:text="@string/hintBackMoney" />
+
+            <com.hftcom.widget.MoneyEditText
+                android:id="@+id/mEditMoney"
+                style="@style/trans_input"
+                android:gravity="right|center"
+                android:hint="@string/hintBackMoney"
+                android:inputType="numberDecimal"
+                android:textSize="30sp" />
+
+            <TextView
+                style="@style/legend"
+                android:text="@string/legend_trans_backmoney" />
+
+            <Button
+                android:id="@+id/btnDoTrade"
+                style="@style/buttonstyle_confirm"
+                android:text="@string/btnConfirm" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

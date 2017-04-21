@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='GBK'?>
+<desk>
+ <backcolor>FFFFFFFF</backcolor>
+
+ <package name="none" color="FF33CCFF" x="20" y="396" with="330" hight="250" drawable="main_menu1">
+    <icon  iconfile="smk_cz" left="165" top="100"   right="160"  bottom="140" /> 
+    <title text="银行卡支付" left="70" top="150"        right="70"  bottom="0" diplaymode="0" size="18" color="ffFFFFFF"/><!--0:代表全部居中 1:靠左显示 2:靠右显示 3:水平居中 4:垂直居中-->
+ </package>
+ 
+ <package name="none" color="FF8C88FF" x="370" y="396" with="330" hight="250" drawable="main_menu2">
+    <icon  iconfile="smk_cz"  left="62" top="50"   right="63"  bottom="100" /> 
+    <title text="一卡通支付" left="70" top="150"        right="70"  bottom="0" diplaymode="0" size="18" color="ffFFFFFF"/>
+ </package>
+ 
+  <package name="com.yuexingdriver" color="FF50D2C2" x="20" y="666" with="680" hight="250" drawable="main_menu3">
+    <icon  iconfile="dmkj_yx"  left="200" top="100"   right="400"  bottom="100" /> 
+    <title text="约行"    left="350" top="100"   right="0"    bottom="100" diplaymode="4" size="22" color="ffFFFFFF"/>
+ </package>
+ 
+  <package name="none" color="FFFDAF27" x="20" y="936" with="330" hight="250" drawable="main_menu4">
+    <icon  iconfile="smk_sfsb"  left="129" top="50"   right="128"  bottom="100" /> 
+    <title text="身份识别"    left="80" top="150"        right="80"  bottom="0" diplaymode="0" size="18" color="ffFFFFFF"/>
+ </package>
+ 
+  <package name="com.android.dialer" color="FF2CACFE" x="370" y="936" with="330" hight="250" drawable="main_menu5">
+    <icon  iconfile="smk_gl_1"  left="129" top="50"   right="129"  bottom="100" /> 
+    <title text="电话"    left="80" top="150"        right="80"  bottom="0" diplaymode="0" size="18" color="ffFFFFFF"/>
+ </package>
+  
+</desk>

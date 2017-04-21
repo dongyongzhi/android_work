@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/digitkeypadrootlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/transpwdpdpanel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#000000"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="#000000"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="22.0sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/text_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/lightgray"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="22.0sp" >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="22.0sp" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutkeybord"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/Keybord_allsize"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/keybord1"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/bbuton_distance"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_gv"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/keybord_textsize" />
+
+                <TextView
+                    android:id="@+id/keybord2"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/bbuton_distance"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_gv"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/keybord_textsize" />
+
+                <TextView
+                    android:id="@+id/keybord3"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/bbuton_distance"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_gv"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/keybord_textsize" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/bbuton_distance"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_gv"
+                    android:gravity="center"
+                    android:text="退格"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/keybord_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/keybord4"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/bbuton_distance"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_gv"
+                    android:gravity="center"
+                    android:text="4"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/keybord_textsize" />
+
+                <TextView
+                    android:id="@+id/keybord5"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/bbuton_distance"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_gv"
+                    android:gravity="center"
+                    android:text="5"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/keybord_textsize" />
+
+                <TextView
+                    android:id="@+id/keybord6"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/bbuton_distance"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_gv"
+                    android:gravity="center"
+                    android:text="6"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/keybord_textsize" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/bbuton_distance"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_gv"
+                    android:gravity="center"
+                    android:text="取消"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/keybord_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/doublebbuton_distance"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/keybord7"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_gv"
+                        android:gravity="center"
+                        android:text="7"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/keybord_textsize" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_gv"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/keybord_textsize" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/keybord8"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_gv"
+                        android:gravity="center"
+                        android:text="8"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/keybord_textsize" />
+
+                    <TextView
+                        android:id="@+id/keybord0"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_gv"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/keybord_textsize" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/keybord9"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_gv"
+                        android:gravity="center"
+                        android:text="9"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/keybord_textsize" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_gv"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/keybord_textsize" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_gv"
+                        android:gravity="center"
+                        android:text="确认"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/keybord_textsize" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

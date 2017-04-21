@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='GBK'?>
+<phone>
+
+    <plan>
+
+        <package
+            money="56"
+            note="国内通话100分钟和国内流量500M"
+            planname="联通4G全国套餐56元" />
+
+        <package
+            money="76"
+            note="国内通话200分钟和国内流量800M"
+            planname="联通4G全国套餐76元" />
+
+        <package
+            money="106"
+            note="国内通话300分钟和国内流量1G"
+            planname="联通4G全国套餐106元" />
+
+        <package
+            money="136"
+            note="国内通话500分钟和国内流量1G"
+            planname="联通4G全国套餐136元" />
+
+        <package
+            money="166"
+            note="国内通话500分钟和国内流量2G"
+            planname="联通4G全国套餐166元" />
+
+        <package
+            money="196"
+            note="国内通话500分钟和国内流量3G"
+            planname="联通4G全国套餐196元" />
+
+        <package
+            money="296"
+            note="国内通话1000分钟和国内流量4G"
+            planname="联通4G全国套餐296元" />
+
+        <package
+            money="396"
+            note="国内通话2000分钟和国内流量6G"
+            planname="联通4G全国套餐396元" />
+
+        <package
+            money="596"
+            note="国内通话3000分钟和国内流量11G"
+            planname="联通4G全国套餐596元" />
+    </plan>
+
+    <numberpool>
+
+        <telephone
+            num="18581051066"
+            pirce="0" />
+
+        <telephone
+            num="18581059701"
+            pirce="0" />
+
+        <telephone
+            num="18581067604"
+            pirce="0" />
+
+        <telephone
+            num="18581063021"
+            pirce="0" />
+
+        <telephone
+            num="18581069378"
+            pirce="0" />
+
+        <telephone
+            num="18581058755"
+            pirce="0" />
+
+        <telephone
+            num="18581069337"
+            pirce="0" />
+
+        <telephone
+            num="18581069069"
+            pirce="0" />
+
+        <telephone
+            num="18581069123"
+            pirce="0" />
+
+        <telephone
+            num="18581063054"
+            pirce="0" />
+
+        <telephone
+            num="18581062199"
+            pirce="0" />
+
+        <telephone
+            num="18581062162"
+            pirce="0" />
+
+        <telephone
+            num="18581069181"
+            pirce="0" />
+
+        <telephone
+            num="18581059724"
+            pirce="0" />
+
+        <telephone
+            num="18581297055"
+            pirce="0" />
+
+        <telephone
+            num="18581299522"
+            pirce="0" />
+    </numberpool>
+
+</phone>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F1F1F1"
+    android:orientation="vertical" >
+
+      <LinearLayout
+        android:id="@+id/top"
+        style="@style/fill_wrap_style"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top_tilte_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+        
+        <include layout="@layout/title"/>
+        
+    </LinearLayout>
+	<ScrollView
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_below="@+id/top"
+	        android:layout_marginBottom="10dip"
+	        android:padding="10dip"
+	        android:scrollbars="vertical" >
+	        <LinearLayout 
+	          	style="@style/fill_style"
+	           >
+			 	<LinearLayout
+			        android:id="@+id/publicloading"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:gravity="center_horizontal|center_vertical"
+			        android:orientation="vertical"
+			        android:background="#F1F1F1"
+			        
+			         >
+			        <ProgressBar
+			            style="@style/publicloadingProgressStyle"
+			            android:layout_width="50dip"
+			            android:layout_height="50dip" >
+			        </ProgressBar>
+			        <TextView 
+			            android:layout_width="fill_parent"
+			            android:layout_height="wrap_content"
+			            android:gravity="center"
+			            android:textColor="@color/black"
+			            android:text="@string/txt_query_xiane"/>
+	    		</LinearLayout>
+	    	<LinearLayout
+			        style="@style/fill_style"
+			        android:layout_below="@+id/top"
+			        android:background="@drawable/common_bg_grey"
+			        android:layout_margin="10dip"
+			        android:orientation="vertical"
+			        android:padding="10dip" 
+			        android:id="@+id/jiaoyi_xiane"
+			        android:visibility="gone"
+			        >
+				<LinearLayout 
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="horizontal"
+				    >
+				     <TextView
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="单笔消费限额:"
+			            android:textColor="@color/black" />
+				    
+			        <TextView
+			            android:id="@+id/onelimitAm"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:textColor="@color/black" />
+				</LinearLayout>
+				<LinearLayout 
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="horizontal"
+				    >
+			        <TextView
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="当日累积消费限额:"
+			            android:layout_marginTop="10dip"
+			            android:textColor="@color/black" />
+			        <TextView
+			            android:id="@+id/sumlimitAm"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_marginTop="10dip"
+				        android:textColor="@color/black" />
+			        </LinearLayout>
+	    </LinearLayout>
+	</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

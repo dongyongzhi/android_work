@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hftcom</string>
+    <string name="action_settings">关于我们</string>
+    <string name="hello_world">Hello world!</string>
+</resources>

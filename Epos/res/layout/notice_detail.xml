@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F1F1F1"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/top"
+        style="@style/fill_wrap_style"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top_bg"
+        android:orientation="horizontal" >
+
+         <include layout="@layout/title"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/top"
+        android:scrollbars="vertical">
+
+        <include layout="@layout/webview"/>
+    </LinearLayout>
+
+</RelativeLayout>

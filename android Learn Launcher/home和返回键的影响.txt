@@ -1,0 +1,13 @@
+HOME键的执行顺序：onPause->onStop->onRestart->onStart->onResume
+BACK键的顺序： onPause->onStop->onDestroy->onCreate->onStart->onResume
+
+
+ final ComponentName receiver = new ComponentName(context,需要禁止的receiver); 
+ final PackageManager pm = context.getPackageManager(); 
+ pm.setComponentEnabledSetting(receiver,PackageManager.COMPONENT_ENABLED_STATE_DISABLED,PackageManager.DONT_KILL_APP); 
+
+
+
+final ComponentName receiver = new ComponentName(pkagname,classname); 
+final PackageManager pm = getPackageManager(); 
+pm.setComponentEnabledSetting(receiver,PackageManager.COMPONENT_ENABLED_STATE_DISABLED,PackageManager.DONT_KILL_APP); 

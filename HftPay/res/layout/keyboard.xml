@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:background="@drawable/keyboard_bg" -->
+<com.hftcom.widget.Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+ 
+    android:paddingBottom="10dip"
+    android:paddingTop="10dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            style="@style/buttonstyle_key_item"
+            android:text="@string/digit7" />
+
+        <Button
+            style="@style/buttonstyle_key_item"
+            android:text="@string/digit8" />
+
+        <Button
+            style="@style/buttonstyle_key_item"
+            android:text="@string/digit9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            style="@style/buttonstyle_key_item"
+            android:text="@string/digit4" />
+
+        <Button
+            style="@style/buttonstyle_key_item"
+            android:text="@string/digit5" />
+
+        <Button
+            style="@style/buttonstyle_key_item"
+            android:text="@string/digit6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            style="@style/buttonstyle_key_item"
+            android:text="@string/digit1" />
+
+        <Button
+            style="@style/buttonstyle_key_item"
+            android:text="@string/digit2" />
+
+        <Button
+            style="@style/buttonstyle_key_item"
+            android:text="@string/digit3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            style="@style/buttonstyle_key_item"
+            android:text="@string/digit0" />
+
+        <Button
+            android:id="@+id/btn_keyboard_del"
+            style="@style/buttonstyle_key_clear_item"
+            android:text="@string/btnDelete" />
+    </LinearLayout>
+
+</com.hftcom.widget.Keyboard>

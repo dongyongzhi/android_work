@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TableRow android:padding="10dip" 
+        android:background="@drawable/all_list_item_bg" >
+
+        <ImageView
+            android:id="@+id/imageIvw"
+            style="@style/fill_style"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginLeft="5dip"
+            android:src="@drawable/help" />
+
+        <TextView
+            android:id="@+id/contentTxt"
+            style="@style/fill_style"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:layout_marginLeft="15dip"
+            android:text="帮助"
+            android:textColor="#616161"
+            android:textSize="16dip"
+            android:gravity="center_vertical" />
+
+        <ImageView
+            style="@style/fill_style"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginLeft="10dip"
+            android:src="@drawable/arrow_right" />
+    </TableRow>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#E5E5E5"
+        android:layout_weight="1" />
+
+</TableLayout>

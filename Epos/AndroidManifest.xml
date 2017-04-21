@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ctbri"
+    android:versionCode="1"
+    android:versionName="1.1" >
+
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="10"/>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"  android:name="com.ctbri.ui.YFApp">
+        <activity
+            android:name=".ui.LoadingActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" /> 
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.LoginActivity" android:windowSoftInputMode="adjustUnspecified|stateHidden"/>
+        <activity android:name=".ui.MainMenuActivity" android:windowSoftInputMode="adjustUnspecified|stateHidden"/>
+            <activity android:name=".ui.MainMenuActivitys" android:windowSoftInputMode="adjustUnspecified|stateHidden"/>
+        
+        <activity android:name=".ui.epos.PurchaseActivity" android:windowSoftInputMode="adjustUnspecified|stateHidden"/>
+        <activity android:name=".ui.epos.QueryBalanceAcivity" android:windowSoftInputMode="adjustUnspecified|stateHidden"/>
+        <activity android:name=".ui.epos.CancelActivity" android:windowSoftInputMode="adjustUnspecified|stateHidden"/>
+        <activity android:name=".ui.epos.BackMoneyActivity" android:windowSoftInputMode="adjustUnspecified|stateHidden"/>
+        <!-- 交易管理  -->
+        <activity android:name=".ui.manage.ManageActivity" android:windowSoftInputMode="adjustUnspecified|stateHidden"/>
+        <activity android:name=".ui.manage.RePrintActivity" android:windowSoftInputMode="adjustUnspecified|stateHidden"/>
+        <activity android:name=".ui.manage.PrintActivity" android:windowSoftInputMode="adjustUnspecified|stateHidden"/>
+        <!-- 系统设置  -->
+        <activity android:name=".ui.system.SystemSettings" android:windowSoftInputMode="adjustUnspecified|stateHidden"/>
+        
+        <!-- 调用接口 -->
+        <activity android:name=".elecpayment.Pay" android:windowSoftInputMode="adjustUnspecified|stateHidden">
+            <intent-filter>
+                <action android:name="com.ctbri.elecpayment.pay"/>
+				<category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <!-- 账户查询 -->
+        <activity android:name="com.ctbri.ui.query.QueryUserActivity" android:windowSoftInputMode="adjustUnspecified|stateHidden"/>
+        <!-- 消费 -->
+        <activity android:name="com.ctbri.ui.consum.ConsumptionActivity" android:windowSoftInputMode="adjustUnspecified|stateHidden"/>
+
+        <activity android:name="com.ctbri.ui.collection.SwipingCardActivity" android:windowSoftInputMode="adjustUnspecified|stateHidden"/>
+        <activity android:name="com.ctbri.ui.collection.TradeSuccessActivity"/>
+        <activity android:name="com.ctbri.ui.collection.TradeSuccessActivitys"/>
+        <activity android:name="com.ctbri.ui.collection.SignCardNameActivity"/>
+        <activity android:name="com.ctbri.ui.collection.OrderDetailActivity"/>
+        <activity android:name="com.ctbri.ui.collection.ReceiptActivity" android:windowSoftInputMode="adjustUnspecified|stateHidden"/>
+        <!-- 更多 -->
+        <activity android:name=".ui.more.MoreActivity" android:windowSoftInputMode="adjustUnspecified|stateHidden"/>
+        <activity android:name=".ui.more.HelpActivity"/>
+        <activity android:name=".ui.more.AboutActivity"/>
+        <activity android:name=".ui.more.EquipmentInfoActivity"/>
+        
+        <!-- 当日、当月、历史 -->
+        <activity android:name=".ui.query.QueryDayActivitys" />
+        <activity android:name=".ui.query.QueryDayActivity" />
+        <activity android:name=".ui.query.QueryHistoryActivitys"/>
+        <activity android:name=".ui.query.QueryMonthActivitys"/>
+        <activity android:name=".ui.query.OrderDetailActivity"/>
+        
+        <!-- 通知公告 -->
+       <!--  <activity android:name=".ui.notice.NoticeListActivity"/>
+        <activity android:name=".ui.notice.NoticeDetailActivity"/> -->
+        <activity android:name=".ui.notice.NoticeListActivitys"/>
+        <activity android:name=".ui.notice.NoticeDetailActivitys"/>
+        
+         <activity android:name=".ui.notice.XftPointListActivity"/>
+        <activity android:name=".ui.notice.XftPotinDetailActivity"/>
+         <activity android:name="com.ctbri.ui.collection.TradeFailActivity" />
+         
+        <!-- 怡丰 pos 服务-->
+        <service android:name="com.yfcomm.pos.bt.DeviceService"/>
+        <service android:name="com.yifeng.hd.YFDeviceService"/>
+        <!-- 实达 pos 服务-->
+        <service android:name="com.yifeng.start.StartDeviceService"/>
+    </application>
+
+ 
+    <!-- 打电话 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 网络 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- bluetooth -->
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <!-- 往SDCard写入数据权限 -->
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+</manifest>

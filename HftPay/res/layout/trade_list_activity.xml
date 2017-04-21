@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F5F6F8" >
+
+    <!-- title -->
+
+    <LinearLayout
+        android:id="@+id/top"
+        style="@style/fill_wrap_style"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <include layout="@layout/title" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/publicloading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/linear_his"
+        android:layout_centerInParent="true"
+        android:background="#fff"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ProgressBar
+            style="@style/publicloadingProgressStyle"
+            android:layout_width="50dip"
+            android:layout_height="50dip" >
+        </ProgressBar>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/txt_query_notice"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <!-- 无数据记录提示 -->
+
+    <LinearLayout
+        android:id="@+id/promptMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:layout_centerInParent="true"
+        android:background="#fff"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/resultMessage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:gravity="center"
+            android:text="@string/legend_no_data"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <!-- 要显示的数据列表 -->
+
+    <LinearLayout
+        style="@style/fill_style"
+        android:layout_above="@+id/btnLast"
+        android:layout_below="@+id/top"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            style="@style/fill_wrap_style"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="5dip"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center_vertical" >
+
+            <EditText
+                android:id="@+id/edtNum"
+                style="@style/fill_wrap_style"
+                android:layout_weight="1"
+                android:hint="请输入6位交易流水号"
+                android:inputType="phone"
+                android:maxLength="6"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/btnSearch"
+                style="@style/wrap_style"
+                android:text="搜索" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listview"
+            style="@style/listViewStyle"
+            android:layout_margin="5dip" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLast"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginBottom="5dip"
+        android:background="@drawable/alert_dialog_btn"
+        android:gravity="center"
+        android:text="@string/last_transaction_print"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</RelativeLayout>

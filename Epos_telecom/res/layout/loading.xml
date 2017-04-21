@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/view_kong"
+        style="@style/fill_style"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        style="@style/fill_wrap_style"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dip"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/mDeviceSelect"
+            style="@style/wrap_style"
+            android:gravity="center"
+            android:background="@drawable/btn_key_clear_on"
+            android:paddingRight="10dip"
+            android:paddingLeft="10dip"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/mSettingPOSName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/more_setting" />
+
+            <TextView
+                android:id="@+id/txtStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4F9FC9" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/frameview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@anim/frameview" />
+    </LinearLayout>
+
+</RelativeLayout>

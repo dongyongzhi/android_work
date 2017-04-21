@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="hobby">
+        <item>联通</item>
+        <item>电信</item>
+        <item>移动</item>
+    </string-array>
+
+</resources>

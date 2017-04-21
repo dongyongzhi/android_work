@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dip"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:id="@+id/tip_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+           <TextView
+                style="@style/trans_input_lable"
+                android:text="@string/legend_trans_cancelorder_desc" />
+         
+            <EditText
+                android:id="@+id/mEditSerNo"
+                style="@style/trans_input"
+                android:hint="@string/hintSerNo"
+                android:layout_marginTop="10dip"
+                android:inputType="number" />
+
+            <TextView
+                style="@style/legend"
+                android:text="@string/legend_trans_serno" 
+                android:layout_marginBottom="20dip"/>
+
+         
+             <TextView
+            style="@style/trans_input_lable"
+            android:text="@string/lable_purchase" />
+             
+              <com.hftcom.widget.MoneyEditText
+            android:id="@+id/enter_pay"
+            style="@style/edittextstyle_pay_money"
+            android:hint="@string/hintEnterPayMoney"
+            android:inputType="numberDecimal" />
+              
+                <!--   <include
+            android:id="@+id/keyboard"
+            layout="@layout/keyboard" /> -->
+               
+            <Button
+                android:id="@+id/btnDoTrade"
+                style="@style/buttonstyle_confirm"
+                android:text="@string/btnConfirm" />
+        </LinearLayout>
+        
+    </ScrollView>
+
+</LinearLayout>

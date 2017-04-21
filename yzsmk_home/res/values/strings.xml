@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">扬州市民卡POS</string>
+    <string name="action_settings">关于我们</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="num_indicator">1/1</string>
+    <string name="num_indicator_inside">1/1</string>
+</resources>

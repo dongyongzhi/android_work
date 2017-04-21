@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip">
+
+    <LinearLayout
+        android:id="@+id/top_liner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/dialog_top"
+        android:orientation="horizontal"
+        android:padding="0dip"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/pTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="标题"
+            android:textSize="20dip"
+            android:layout_marginLeft="50dip"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_liner"
+        android:background="@drawable/dialog_body"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            style="@style/fill_style"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/top_liner"
+            android:layout_margin="8dip"
+            android:orientation="vertical"
+            android:padding="5dip" >
+
+            <TextView
+                android:id="@+id/pMsg"
+                style="@style/fill_style"
+                android:layout_marginBottom="5dip"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:padding="5dip"
+                android:textColor="#878175"
+                android:textSize="18dip" />
+
+            <LinearLayout
+                style="@style/fill_wrap_style"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/confirm_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/alert_dialog_btn"
+                    android:padding="10dip"
+                    android:text="@string/alert_dialog_ok"
+                    android:textColor="@color/white"
+                    android:gravity="center" />
+
+                <Button
+                    android:id="@+id/cancel_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="10dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_grey_btn"
+                    android:padding="10dip"
+                    android:text="@string/alert_dialog_cancel"
+                    android:textColor="#888580"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

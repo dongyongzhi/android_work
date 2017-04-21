@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/top"
+        layout="@layout/title" />
+
+    <LinearLayout
+        android:id="@+id/tip_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/trans_input_lable"
+            android:text="@string/lable_purchase" />
+
+        <com.ctbri.widget.MoneyEditText
+            android:id="@+id/enter_pay"
+            style="@style/edittextstyle_pay_money"
+            android:hint="@string/hintEnterPayMoney"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            style="@style/legend"
+            android:text="@string/legend_trans_purchase" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/tip_info"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/start_swip"
+            style="@style/buttonstyle_confirm"
+            android:layout_alignParentBottom="true"
+            android:text="@string/btnConfirm" />
+
+        <include
+            android:id="@+id/keyboard"
+            android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" 
+            layout="@layout/keyboard" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

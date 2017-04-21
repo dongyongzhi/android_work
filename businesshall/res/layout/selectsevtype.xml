@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beijing" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/Demonstrationproject"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30.0sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DDemonstration"
+            android:layout_marginTop="@dimen/halfDemonstration"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/businesshall"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/Demonstration"
+            android:layout_marginEnd="50dp"
+            android:layout_marginStart="50dp"
+            android:background="@drawable/paytop"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/busnisshall" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="@string/bussinesshall"
+                android:textColor="#FFFFFFFF"
+                android:textSize="30.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/consumption_treasure"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/Demonstration"
+            android:layout_marginEnd="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="@dimen/halfDemonstration"
+            android:background="@drawable/paylow"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/consumptionaddandopen" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="@string/Entrance"
+                android:textColor="#FFFFFFFF"
+                android:textSize="30.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/readsfcard"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/Demonstration"
+            android:layout_marginEnd="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="@dimen/halfDemonstration"
+            android:background="@drawable/paylow"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/readsfcard" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="@string/ReadSFCARD"
+                android:textColor="#FFFFFFFF"
+                android:textSize="30.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

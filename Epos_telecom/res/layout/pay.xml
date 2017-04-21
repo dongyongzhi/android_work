@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F7F7F7"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/top"
+        style="@style/fill_wrap_style"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top_tilte_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bgcolor"
+                android:padding="5dip" >
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="订单说明:"
+                        android:textColor="#707070"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/order_comment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dip"
+                        android:layout_weight="1"
+                        android:gravity="left|top"
+                        android:maxLines="2"
+                        android:minLines="2"
+                        android:textColor="#707070"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="商户名称:"
+                        android:textColor="#707070"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/merchant_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dip"
+                        android:layout_weight="1"
+                        android:singleLine="true"
+                        android:textColor="#707070"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="应付金额:"
+                        android:textColor="#707070"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/should_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dip"
+                        android:layout_weight="1"
+                        android:textColor="#F6A055"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:gravity="right"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/arrow_up" />
+                </LinearLayout>
+            </TableLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#D7D7D7" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#FFFFFF" />
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dip" >
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="交易类型:"
+                        android:textColor="#707070"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/order_pay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dip"
+                        android:layout_weight="1"
+                        android:singleLine="true"
+                        android:textColor="#707070"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="操作工号:"
+                        android:textColor="#707070"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/oper_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dip"
+                        android:layout_weight="1"
+                        android:singleLine="true"
+                        android:textColor="#707070"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="商户类型:"
+                        android:textColor="#707070"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/mCompanyType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dip"
+                        android:layout_weight="1"
+                        android:singleLine="true"
+                        android:textColor="#707070"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="订  单  号:"
+                        android:textColor="#707070"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/orderCode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dip"
+                        android:layout_weight="1"
+                        android:singleLine="true"
+                        android:textColor="#707070"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="流  水  号:"
+                        android:textColor="#707070"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/mTradeSerialNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dip"
+                        android:layout_weight="1"
+                        android:singleLine="true"
+                        android:text="2101223243333"
+                        android:textColor="#707070"
+                        android:textSize="14sp" />
+                </TableRow>
+            </TableLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#D7D7D7" />
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/alert_icon"
+                android:text="您已开启免输密码支付功能。"
+                android:gravity="center_vertical"
+                android:layout_margin="5dip"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dip"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/btnDoTrade"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:background="@drawable/alert_dialog_btn"
+            android:gravity="center"
+            android:text="确认付款"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

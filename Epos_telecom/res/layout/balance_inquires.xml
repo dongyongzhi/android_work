@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F5F6F8" >
+
+    <!-- title -->
+
+    <LinearLayout
+        android:id="@+id/top"
+        style="@style/fill_wrap_style"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top_tilte_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <!-- query tag -->
+
+    <LinearLayout
+        android:id="@+id/linear_his"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top" >
+
+        <include layout="@layout/btn_top" />
+    </LinearLayout>
+
+    <!-- 加载进度显示 -->
+
+    <LinearLayout
+        android:id="@+id/publicloading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/linear_his"
+        android:layout_centerInParent="true"
+        android:background="#fff"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ProgressBar
+            style="@style/publicloadingProgressStyle"
+            android:layout_width="50dip"
+            android:layout_height="50dip" >
+        </ProgressBar>
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="@string/txt_query_notice"/>
+    </LinearLayout>
+
+    <!-- 无数据记录提示 -->
+
+    <LinearLayout
+        android:id="@+id/promptMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_his"
+        android:layout_centerInParent="true"
+        android:background="#fff"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/resultMessage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:gravity="center"
+            android:text="@string/legend_no_data"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <!-- 查询区域 -->
+
+    <LinearLayout
+        android:id="@+id/queryTrans"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/promptMessage"
+        android:layout_marginTop="15dip"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <EditText
+            android:id="@+id/mOrderCode"
+            style="@style/trans_input"
+            android:hint="@string/hintOrderCode"
+            android:inputType="number" />
+        
+        <EditText
+            android:id="@+id/mExternalId"
+            style="@style/trans_input"
+            android:hint="@string/hintExternalId"
+            android:inputType="number" />
+        
+        <EditText
+            android:id="@+id/mEditStartDate"
+            style="@style/trans_input"
+            android:hint="@string/hintStartDate"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/mEditEndDate"
+            style="@style/trans_input"
+            android:hint="@string/hintEndDate"
+            android:inputType="date" />
+
+        <Button
+            android:id="@+id/btn_query"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="6dip"
+            android:layout_marginRight="6dip"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/btn_time"
+            android:text="@string/btnTransQuery"
+            android:textColor="#ff2472a0"
+            android:textSize="15dip" />
+    </LinearLayout>
+
+    <!-- 要显示的数据列表 -->
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_his"
+        android:layout_margin="5dip"
+        android:cacheColorHint="#00000000"
+        android:divider="#000000"
+        android:visibility="gone" />
+
+</RelativeLayout>

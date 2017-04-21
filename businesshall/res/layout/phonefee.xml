@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/distance"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/phonefee_phonenum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:digits="1234567890"
+            android:ems="10"
+            android:hint="请输入手机号码"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/b_phonefee1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="测试号码" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/distance"
+        android:text="充值金额"
+        android:textColor="@color/black"
+        android:textSize="15.0sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/distance"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/phonefee_fifty"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/setbar_bg"
+            android:gravity="center"
+            android:text="50元"
+            android:textColor="@color/black"
+            android:textSize="15.0sp" />
+
+        <TextView
+            android:id="@+id/phonefee_onehundred"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/setbar_bg"
+            android:gravity="center"
+            android:text="100元"
+            android:textColor="@color/black"
+            android:textSize="15.0sp" />
+
+        <TextView
+            android:id="@+id/phonefee_twohundred"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/setbar_bg"
+            android:gravity="center"
+            android:text="200元"
+            android:textColor="@color/black"
+            android:textSize="15.0sp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/phonefee_customamount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/distance"
+        android:digits="1234567890"
+        android:hint="自定义金额（0-500的整数）"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/phonefee_showamount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/distance"
+        android:gravity="center"
+        android:text="充值 0.00元"
+        android:textColor="@color/black"
+        android:textSize="20.0sp" />
+
+    <Button
+        android:id="@+id/phonefee_zf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/distance"
+        android:text="立即支付" />
+
+</LinearLayout>

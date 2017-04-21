@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.yifeng.skzs"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F5F6F8" >
+
+    <LinearLayout
+        android:id="@+id/top"
+        style="@style/fill_wrap_style"
+        android:background="@drawable/top_tilte_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+               
+        <include layout="@layout/title"/>
+    </LinearLayout>
+
+    <ScrollView android:scrollbars="vertical" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+	    android:layout_above="@+id/included1"
+         	>
+	    <LinearLayout
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="top"
+	        android:orientation="vertical" 
+	        android:layout_marginLeft="15dip" 
+	        android:layout_marginTop="15dip" 
+	        android:layout_marginRight="15dip">
+	         <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	             <Button android:gravity="center_vertical" android:id="@+id/more_about" android:background="@drawable/btn_rect_top_bg" android:paddingLeft="10.0dip" android:paddingRight="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="关于我们" android:drawableLeft="@drawable/more_about" android:drawableRight="@drawable/right_to_blue" style="@style/settingTextView" />
+	             <Button android:gravity="center_vertical" android:id="@+id/more_sbxx" android:background="@drawable/btn_rect_bottom_bg" android:paddingLeft="10.0dip" android:paddingRight="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="设备信息" android:drawableLeft="@drawable/sbxx" android:drawableRight="@drawable/right_to_blue" style="@style/settingTextView" />
+	         </LinearLayout>
+	         <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+	             android:layout_marginTop="10dip">
+	            <!--  <Button android:gravity="center_vertical" android:id="@+id/more_xtbz" android:background="@drawable/btn_rect_top_bg" android:paddingLeft="10.0dip" android:paddingRight="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="系统设置" android:drawableLeft="@drawable/more_setting" android:drawableRight="@drawable/right_to_blue" style="@style/settingTextView" />  -->
+	             <Button android:gravity="center_vertical" android:id="@+id/more_bbgx" android:background="@drawable/btn_rect_middle_bg" android:paddingLeft="10.0dip" android:paddingRight="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="版本更新" android:drawableLeft="@drawable/more_update" android:drawableRight="@drawable/right_to_blue" style="@style/settingTextView" />
+				 <Button android:gravity="center_vertical" android:id="@+id/more_tccx" android:background="@drawable/btn_rect_bottom_bg" android:paddingLeft="10.0dip" android:paddingRight="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="退出程序" android:drawableLeft="@drawable/more_exit" android:drawableRight="@drawable/right_to_blue" style="@style/settingTextView" />
+	         </LinearLayout>
+	    </LinearLayout>
+	 </ScrollView>
+  
+
+</RelativeLayout>

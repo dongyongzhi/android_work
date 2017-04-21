@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/top_liner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_top"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="0dip" >
+
+        <TextView
+            android:id="@+id/pTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dip"
+            android:text="@string/title_dialog_sign"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_body"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dip"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/mEditUserNo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip"
+                    android:background="@drawable/user"
+                    android:gravity="center_vertical"
+                    android:hint="@string/hintOperNo"
+                    android:maxLength="2"
+                    android:paddingLeft="30dip"
+                    android:singleLine="true"
+                    android:inputType="number"
+                    android:textColor="#909090" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/mEditUserPwd"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dip"
+                    android:background="@drawable/password"
+                    android:gravity="center_vertical"
+                    android:hint="@string/hintOperPwd"
+                    android:inputType="textPassword"
+                    android:maxLength="4"
+                    android:paddingLeft="30dip"
+                    android:singleLine="true"
+                    android:textColor="#909090" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26dip"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/confirm_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/alert_dialog_btn"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="@string/alert_dialog_ok"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/cancel_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="10dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_grey_btn"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="@string/alert_dialog_cancel"
+                    android:textColor="#888580" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

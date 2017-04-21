@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='GBK'?>
+<desk>
+ <backcolor>FFEBEBEB</backcolor>
+
+ <!--当前分辨率是 720*1280-->
+ <package name="com.google.zxing.client.android" color="FFE6E6E6" x="0" y="0" with="240" hight="195">
+    <!--当前窗口大小是 240*220-->
+    <icon  iconfile="shaoyishao" left="80" top="50"   right="80"  bottom="100" /> 
+    <title text="扫一扫" left="80"    top="130" right="0" bottom="0" diplaymode="1" size="0" color="FF000000"/><!--0:代表全部居中 1:靠左显示 2:靠右显示 3:水平居中 4:垂直居中-->
+    
+ </package>
+
+ <package name="com.yifeng.pay" color="FFE6E6E6"    x="240"  y="0" with="240" hight="195">
+    <!--当前窗口大小是 240*220-->
+    <icon  iconfile="fukuan"    left="80" top="50"   right="80"  bottom="100" /> 
+    <title text="付款码"  left="80"  top="130" right="0"  bottom="0" diplaymode="1" size="0" color="FF000000"/><!--0:代表全部居中 1:靠左显示 2:靠右显示 3:水平居中 4:垂直居中-->
+    
+ </package>
+
+ <package name="com.android.setting" color="FFE6E6E6" x="480" y="0" with="240" hight="195">
+    <!--当前窗口大小是 240*220-->
+    <icon  iconfile="shuaiyishua"  left="80" top="50"   right="80"  bottom="100" /> 
+    <title text="刷一刷" left="80"   top="130" right="0" bottom="0" diplaymode="1" size="0" color="FF000000"/><!--0:代表全部居中 1:靠左显示 2:靠右显示 3:水平居中 4:垂直居中-->
+ </package>
+
+ <package name="com.android.setting" color="FFFF668B" x="0" y="200" with="500" hight="300">
+   <!--当前窗口大小是 500*300-->
+    <icon  iconfile="beiyong"    left="200" top="80"   right="200"  bottom="100" /> 
+    <title text="羽融" left="200"   top="140" right="200" bottom="0" diplaymode="0" size="20" color="ffFFFFFF"/><!--0:代表全部居中 1:靠左显示 2:靠右显示 3:水平居中 4:垂直居中-->
+ </package>
+ 
+  <package name="com.android.setting" color="FFFFB922" x="505" y="200" with="220" hight="300">
+    <!--当前窗口大小是 220*300-->
+    <icon  iconfile="licai"  left="60" top="50"   right="60"  bottom="100" /> 
+    <title text="理财" left="60"  top="130" right="60" bottom="0" diplaymode="0" size="20" color="ffFFFFFF"/><!--0:代表全部居中 1:靠左显示 2:靠右显示 3:水平居中 4:垂直居中-->
+ </package>
+ 
+  <package name="com.android.setting" color="FFFD3A58" x="0" y="505" with="720" hight="300">
+    <!--当前窗口大小是 220*300-->
+    <icon  iconfile="syt"  left="100" top="100"   right="400"  bottom="100" /> 
+    <title text="怡丰收银台"    left="300" top="100"   right="0"    bottom="100" diplaymode="4" size="30" color="ffFFFFFF"/><!--0:代表全部居中 1:靠左显示 2:靠右显示 3:水平居中 4:垂直居中-->
+ </package>
+ 
+  <package name="com.sankuai.meituan.merchant" color="FF0EC5D9" x="0" y="810" with="357" hight="200">
+    <!--当前窗口大小是 220*300-->
+    <icon  iconfile="tuangou"  left="120" top="20"   right="160"  bottom="100" /> 
+    <title text="团购"    left="120" top="100"        right="150"  bottom="0" diplaymode="0" size="20" color="ffFFFFFF"/><!--0:代表全部居中 1:靠左显示 2:靠右显示 3:水平居中 4:垂直居中-->
+ </package>
+ 
+  <package name="com.nian.preferential" color="FF91D92A" x="363" y="810" with="357" hight="200">
+    <!--当前窗口大小是 220*300-->
+    <icon  iconfile="kajuan"  left="150" top="20"   right="120"  bottom="100" /> 
+    <title text="卡券"    left="150" top="100"        right="120"  bottom="0" diplaymode="0" size="20" color="ffFFFFFF"/><!--0:代表全部居中 1:靠左显示 2:靠右显示 3:水平居中 4:垂直居中-->
+ </package>
+  
+  
+ 
+</desk>

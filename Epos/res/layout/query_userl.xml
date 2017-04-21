@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F1F1F1"
+    android:orientation="vertical" >
+
+      <LinearLayout
+        android:id="@+id/top"
+        style="@style/fill_wrap_style"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top_tilte_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+        
+        <include layout="@layout/title"/>
+        
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/bottom"
+        android:layout_below="@+id/top"
+        android:layout_marginBottom="10dip"
+        android:padding="10dip"
+        android:scrollbars="vertical" >
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+            
+            
+		 <LinearLayout
+        android:id="@+id/publicloading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:background="#F1F1F1"
+         >
+
+        <ProgressBar
+            style="@style/publicloadingProgressStyle"
+            android:layout_width="50dip"
+            android:layout_height="50dip" >
+        </ProgressBar>
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="@string/txt_query_acount"/>
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/tip_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/common_bg_green"
+            android:orientation="vertical"
+            android:padding="10dip" 
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:gravity="center"
+                android:text="账户查询结果"
+                android:textColor="#696A6E"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#D7D7D7" />
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TableRow android:layout_marginTop="5dip" android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="当日累计交易笔数:"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_marginLeft="5dp"
+                        android:id="@+id/drljjybs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dip" android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="当日累计交易金额:"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_marginLeft="5dp"
+                        android:id="@+id/drljjyje"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dip" android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="取现银行卡卡号:"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/bankId"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dip" android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="本卡所属银行:"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/bankAddress"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#0080CA" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dip" android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="绑定的设备号:"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/shebNo"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dip" android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="可取现金额:"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/takeMonery"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dip" android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="待结算余额:"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/yuE"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black" />
+                </TableRow>
+ 
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_marginBottom="5dip"
+                    android:layout_marginTop="5dip"
+                    android:background="#D7D7D7" />
+
+                 
+            </TableLayout>
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    
+</RelativeLayout>

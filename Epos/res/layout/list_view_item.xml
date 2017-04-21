@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/wrap_fill_style"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:padding="10dp"
+    android:background="@color/white"
+    >
+ 
+
+    
+    <LinearLayout
+        style="@style/wrap_style"
+        android:orientation="horizontal" >
+ 		<TextView
+            style="@style/wrap_style"
+             android:textColor="@color/black"
+            android:text="订单号：" />
+        <TextView
+            android:id="@+id/text1"
+            style="@style/wrap_style"
+             android:textColor="@color/gray"
+              />
+    </LinearLayout>
+    
+    <TableLayout 
+        style="@style/wrap_style"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        >
+        <TableRow 
+            style="@style/wrap_style"
+            android:layout_width="fill_parent"
+            >
+            <LinearLayout 
+                style="@style/wrap_style"
+        		android:orientation="horizontal"
+        		android:layout_weight="1"
+                >
+                
+                
+             <TextView
+	            style="@style/wrap_style"
+	            android:textColor="@color/black"
+	            android:text="金额：" />
+	        <TextView
+	            android:id="@+id/text2"
+	            style="@style/wrap_style"
+	            android:textColor="@color/black"
+	            
+	            />
+            </LinearLayout>
+            
+                <LinearLayout 
+                style="@style/wrap_style"
+		        android:orientation="horizontal"
+		        android:layout_gravity="right"
+		        android:gravity="right"
+        		android:layout_weight="1"
+                >
+	         <TextView
+	            style="@style/wrap_style"
+	            android:gravity="right"
+	            android:textColor="@color/black"
+	            android:text="状态：" />
+	        <TextView
+	            android:id="@+id/text4"
+	            android:layout_gravity="right"
+	            android:layout_width="60dp"
+	            style="@style/wrap_style" 
+	            android:textColor="@color/black"
+	             />
+	        </LinearLayout>
+        </TableRow>
+       
+        </TableLayout>
+        
+    <LinearLayout 
+        style="@style/wrap_style"
+        android:orientation="horizontal"
+        >
+          <TextView
+            style="@style/wrap_style"
+            android:textColor="@color/black"
+            android:text="交易时间：" />
+       
+         <TextView
+            android:id="@+id/text3"
+            style="@style/wrap_style"
+            android:textColor="@color/black"
+            />
+         
+        </LinearLayout>
+
+</LinearLayout>

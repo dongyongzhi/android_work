@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="distance">20dp</dimen>
+     <dimen name="ddistance">40dp</dimen>
+    <dimen name="showdistance">30dp</dimen>
+    <dimen name="bbuton_rounded_corner_radius">5dp</dimen>
+    <dimen name="bbuton_distance">80dp</dimen>
+    <dimen name="doublebbuton_distance">160dp</dimen>
+    <dimen name="Keybord_allsize">320dp</dimen>
+    <dimen name="keybord_textsize">20.0sp</dimen>
+    <dimen name="Demonstration">100dp</dimen>
+    <dimen name="halfDemonstration">50dp</dimen>
+    <dimen name="DDemonstration">400dp</dimen>
+</resources>

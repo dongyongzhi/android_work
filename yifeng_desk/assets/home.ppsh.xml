@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='GBK'?>
+<desk>
+ <backcolor>FFEBEBEB</backcolor>
+
+ <package name="com.google.zxing.client.android" color="FFE6E6E6" x="20" y="0" with="226" hight="195">
+   
+    <icon  iconfile="shaoyishao" left="73" top="50"   right="73"  bottom="100" /> 
+    <title text="扫一扫" left="73"    top="130" right="0" bottom="0" diplaymode="1" size="0" color="ff000000"/>
+    
+ </package>
+
+ <package name="com.yifeng.pay" color="FFE6E6E6"    x="246"  y="0" with="228" hight="195">
+ 
+    <icon  iconfile="fukuan"    left="74" top="50"   right="74"  bottom="100" /> 
+    <title text="付款码"  left="74"  top="130" right="0"  bottom="0" diplaymode="1" size="0" color="ff000000"/>
+    
+ </package>
+
+ <package name="com.ctbri" color="FFE6E6E6" x="474" y="0" with="226" hight="195">
+  
+    <icon  iconfile="shuaiyishua"  left="73" top="50"   right="73"  bottom="100" /> 
+    <title text="刷一刷" left="73"   top="130" right="0" bottom="0" diplaymode="1" size="0" color="ff000000"/>
+ </package>
+
+ <package name="com.android.settings" color="FFFF668B" x="20" y="200" with="400" hight="300">
+    <icon  iconfile="huiyuanka" left="160" top="100"   right="160"  bottom="140" /> 
+    <icon  iconfile="bq"        left="260" top="0"   right="0"  bottom="160" /> 
+    <title text="会员卡" left="140"   top="180" right="100" bottom="0" diplaymode="1" size="20" color="ffFFFFFF"/><!--0:代表全部居中 1:靠左显示 2:靠右显示 3:水平居中 4:垂直居中-->
+ </package>
+ 
+  <package name="com.sankuai.meituan.merchant" color="FFFFB922" x="425" y="200" with="275" hight="300">
+    <icon  iconfile="licai"  left="62" top="50"   right="63"  bottom="100" /> 
+    <icon  iconfile="bq"     left="130" top="0"   right="0"  bottom="150" /> 
+    <title text="理财" left="62"  top="130" right="63" bottom="0" diplaymode="0" size="20" color="ffFFFFFF"/>
+ </package>
+ 
+  <package name="com.yifeng.pay" color="FFFD3A58" x="20" y="505" with="680" hight="300">
+    <icon  iconfile="ppsh"  left="80" top="100"   right="400"  bottom="100" /> 
+    <title text="胖胖生活收银台"    left="280" top="100"   right="0"    bottom="100" diplaymode="4" size="25" color="ffFFFFFF"/>
+ </package>
+ 
+  <package name="com.sankuai.meituan.merchant" color="FF0EC5D9" x="20" y="810" with="337" hight="270">
+
+    <icon  iconfile="tuangou"  left="129" top="50"   right="128"  bottom="100" /> 
+    <title text="团购"    left="129" top="130"        right="128"  bottom="0" diplaymode="0" size="20" color="ffFFFFFF"/>
+ </package>
+ 
+  <package name="com.nian.preferential" color="FF91D92A" x="362" y="810" with="338" hight="270">
+    <icon  iconfile="kajuan"  left="129" top="50"   right="129"  bottom="100" /> 
+    <title text="卡券"    left="129" top="130"        right="129"  bottom="0" diplaymode="0" size="20" color="ffFFFFFF"/>
+ </package>
+  
+  
+ 
+</desk>

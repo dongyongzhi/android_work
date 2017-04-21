@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.yfcomm.yf_desk"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/workspace"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <!-- 
+        <com.yfcomm.yf_desk.MyPageView
+            android:id="@+id/workspace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            launcher:scrollIndicatorPaddingLeft="@dimen/workspace_divider_padding_left"
+            launcher:scrollIndicatorPaddingRight="@dimen/workspace_divider_padding_right" >
+        </com.yfcomm.yf_desk.MyPageView>
+         -->
+    </FrameLayout>
+
+    <include
+        android:id="@+id/paged_view_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/button_bar_height"
+        layout="@layout/scroll_indicator" />
+
+</FrameLayout>

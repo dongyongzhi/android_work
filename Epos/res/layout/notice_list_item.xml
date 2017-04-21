@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/notice_list_view_bg" >
+
+    <TableRow android:padding="10dip">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/legend_notice"
+            android:src="@drawable/voice"
+            android:layout_gravity="left|top" />
+
+        <TextView
+            android:id="@+id/notice_content"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/msg_sendfrom_done_bg_nor"
+            android:textColor="#343434"
+            android:paddingTop="3dip"
+            android:paddingLeft="8dip"
+            android:paddingRight="3dip"
+            android:paddingBottom="5dip"
+            android:layout_marginLeft="10dip"
+            android:textSize="14sp"
+            android:layout_gravity="top|left" />
+    </TableRow>
+
+</TableLayout>

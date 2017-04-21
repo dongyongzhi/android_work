@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/top_liner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_top"
+        android:orientation="horizontal"
+        android:padding="0dip"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/pTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="标题"
+            android:textSize="20dip"
+            android:layout_marginLeft="50dip"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_body"
+        android:orientation="vertical" >
+ 
+        <TextView
+            android:id="@+id/pMsg"
+            style="@style/fill_wrap_style"
+            android:layout_margin="10dip"
+            android:padding="5dip"
+            android:textColor="#878175"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/pBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_margin="5dip"
+            android:background="@drawable/button_grey_btn"
+            android:text="@string/alert_dialog_ok"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

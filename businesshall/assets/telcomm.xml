@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='GBK'?>
+<phone>
+
+    <plan>
+
+        <package
+            money="59"
+            note="国内通话100分钟和国内流量500M"
+            planname="乐享4G套餐59元" />
+
+        <package
+            money="79"
+            note="国内通话200分钟和国内流量500M"
+            planname="乐享4G套餐79元" />
+
+        <package
+            money="99"
+            note="国内通话300分钟和国内流量1G"
+            planname="乐享4G套餐99元" />
+
+        <package
+            money="129"
+            note="国内通话500分钟和国内流量1G"
+            planname="乐享4G套餐129元" />
+
+        <package
+            money="169"
+            note="国内通话700分钟和国内流量2G"
+            planname="乐享4G套餐169元" />
+
+        <package
+            money="199"
+            note="国内通话700分钟和国内流量3G"
+            planname="乐享4G套餐199元" />
+
+        <package
+            money="229"
+            note="国内通话700分钟和国内流量4G"
+            planname="乐享4G套餐229元" />
+
+        <package
+            money="299"
+            note="国内通话1500分钟和国内流量4G"
+            planname="乐享4G套餐299元" />
+
+        <package
+            money="399"
+            note="国内通话2000分钟和国内流量6G"
+            planname="乐享4G套餐399元" />
+    </plan>
+
+    <numberpool>
+
+        <telephone
+            num="17702314555"
+            pirce="0" />
+
+        <telephone
+            num="17702313838"
+            pirce="0" />
+
+        <telephone
+            num="17702315315"
+            pirce="0" />
+
+        <telephone
+            num="17702314555"
+            pirce="0" />
+
+        <telephone
+            num="17782393393"
+            pirce="0" />
+
+        <telephone
+            num="17784731588"
+            pirce="0" />
+
+        <telephone
+            num="17772342342"
+            pirce="0" />
+
+        <telephone
+            num="17782393838"
+            pirce="0" />
+
+        <telephone
+            num="17784731688"
+            pirce="0" />
+
+        <telephone
+            num="17784731731"
+            pirce="0" />
+
+        <telephone
+            num="17702313088"
+            pirce="0" />
+
+        <telephone
+            num="17702313300"
+            pirce="0" />
+
+        <telephone
+            num="17702313355"
+            pirce="50" />
+
+        <telephone
+            num="17784731818"
+            pirce="0" />
+
+        <telephone
+            num="17702313288"
+            pirce="0" />
+
+        <telephone
+            num="17702313322"
+            pirce="0" />
+    </numberpool>
+
+</phone>

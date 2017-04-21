@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ROOT>  
+    <name>
+      <package name="com.yfcomm.yf_desk"   />
+      <package name="com.android.providers.downloads.ui"   />
+      <package name="com.yifengcom.yfpos.keycard"   />
+      <package name="com.yfcomm.YFMessage"   />
+      <package name="com.yifengcom.yfposdemo"   />
+      <package name="com.google.zxing.client.android"   />
+      <package name="org.codeaurora.snapcam"   />
+      <package name="com.hftcom"   />
+      <package name="com.huimin.ordersystem"  />
+      <package name="com.nian.hjy"     />
+      <package name="com.yifeng.pay"   />
+      <package name="com.techown.emm"  />
+      <package name="com.techown.emm"  />
+      <package name="com.yfcomm.provision" />
+      <package name="com.qti.factory"  />
+      <package name="com.hjy.huijiayou"  />
+      <package name="com.yifengcom.yfpos"  />
+    </name> 
+</ROOT>

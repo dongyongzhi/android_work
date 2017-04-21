@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">应用商店</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">应用卸载</string>
+    <string name="action_version">版本信息</string>
+    <string name="action_insatll">安装</string>
+    <string name="line">line</string>
+    <string name="version">版本发布日期:</string>
+    <string name="conpanyname">公司名称:</string>
+    <string name="snum">序列号:</string>
+    <string name="urladd">连接地址:</string>
+    <string name="onok">确定</string>
+    <string name="action_test">版本测试</string>
+</resources>

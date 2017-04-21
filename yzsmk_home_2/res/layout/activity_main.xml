@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <include
+            android:id="@+id/topLayout"
+            layout="@layout/title" />
+
+        <com.youth.banner.Banner
+            android:id="@+id/banner1"
+            android:layout_width="match_parent"
+            android:layout_height="280px"
+            android:layout_below="@+id/topLayout"
+            app:indicator_drawable_selected="@drawable/green"
+            app:indicator_drawable_unselected="@drawable/white"
+            app:indicator_height="5dp"
+            app:indicator_margin="5dp"
+            app:indicator_width="15dp" />
+
+        <RelativeLayout
+            android:id="@+id/bottombar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" >
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:text="TDK密钥" />
+     
+     <EditText
+        android:id="@+id/tdkIndex"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:gravity="center_vertical"
+        android:inputType="number"
+        android:maxLength="1"
+        android:hint="TDK索引"
+        android:singleLine="true" />
+     
+    <EditText
+        android:id="@+id/tdk"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:gravity="center_vertical"
+        android:maxLength="32"
+        android:hint="TDK密钥"
+        android:singleLine="true" />
+    
+    
+    <EditText
+        android:id="@+id/tdkCheckValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:gravity="center_vertical"
+        android:hint="TDK CheckValue"
+         android:maxLength="8"
+        android:singleLine="true" />
+
+  
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:text="PIK密钥" />
+         
+     <EditText
+        android:id="@+id/pikIndex"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:gravity="center_vertical"
+        android:inputType="number"
+        android:maxLength="1"
+        android:hint="PIK索引"
+        android:singleLine="true" />
+     
+    <EditText
+        android:id="@+id/pik"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:gravity="center_vertical"
+         android:maxLength="32"
+        android:hint="PIK密钥"
+        android:singleLine="true" />
+    
+      <EditText
+        android:id="@+id/pikCheckValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:gravity="center_vertical"
+        android:hint="PIK CheckValue"
+         android:maxLength="8"
+        android:singleLine="true" />
+
+      
+    
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:text="MAK密钥" />
+    
+          
+     <EditText
+        android:id="@+id/makIndex"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:gravity="center_vertical"
+        android:inputType="number"
+        android:maxLength="1"
+        android:hint="MAK索引"
+        android:singleLine="true" />
+     
+    <EditText
+        android:id="@+id/mak"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:gravity="center_vertical"
+        android:hint="MAK密钥"
+         android:maxLength="32"
+        android:singleLine="true" />
+       
+      <EditText
+        android:id="@+id/makCheckValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:gravity="center_vertical"
+        android:hint="MAK CheckValue"
+        android:maxLength="8"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dip"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btnWriteKey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/btn_writekey" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/btn_cancel" />
+    </LinearLayout>
+
+</LinearLayout>

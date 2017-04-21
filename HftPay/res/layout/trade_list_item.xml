@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        style="@style/wrap_style"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/trade_list_item_left"
+            android:text="流水号："
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/text1"
+            style="@style/trade_list_item_right" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/wrap_style"
+        android:layout_marginTop="2dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/trade_list_item_left"
+            android:text="金额："
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/text2"
+            style="@style/trade_list_item_right" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/wrap_style"
+        android:layout_marginTop="2dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/trade_list_item_left"
+            android:gravity="right"
+            android:text="状态："
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/text4"
+            style="@style/trade_list_item_right" />
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        style="@style/wrap_style"
+        android:layout_marginTop="2dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/trade_list_item_left"
+            android:gravity="right"
+            android:text="Mac："
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvMac"
+            style="@style/trade_list_item_right" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/wrap_style"
+        android:layout_marginTop="2dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/trade_list_item_left"
+            android:text="交易时间："
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/text3"
+            style="@style/trade_list_item_right" />
+    </LinearLayout>
+
+</LinearLayout>

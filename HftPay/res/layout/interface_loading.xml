@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/top_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/loading_up"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dip"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:id="@+id/mDeviceSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/mSettingPOSName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/xtsz" />
+
+            <TextView
+                android:id="@+id/mProgressStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="6dip"
+                android:textColor="#868686"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <!--
+             <ImageView
+            android:id="@+id/loadingview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@anim/loadingview" />
+        -->
+
+        <ProgressBar
+            android:id="@+id/ProgressBar01"
+            style="@style/loadingProgressStyle"
+            android:layout_width="40dip"
+            android:layout_height="45dip"
+            android:layout_gravity="center_horizontal" >
+        </ProgressBar>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loading_down"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="5dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_orange"
+            android:gravity="center"
+            android:text="新"
+            android:textColor="@color/white"
+            android:textSize="10dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="翼支付手机POS4008011888"
+            android:textColor="#4E78A8"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

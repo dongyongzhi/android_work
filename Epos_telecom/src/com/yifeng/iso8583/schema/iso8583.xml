@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- type 参照 IsoType.java 定义  -->
+<iso8583>
+    <fields>
+	    <field index="2"   type="N_LLVAR"              name="主账号"/>
+	    <field index="3"   type="N"        length="6"  name="交易处理码"/>
+	    <field index="4"   type="AMOUNT"   length="12" name="交易金额"/>
+	    <field index="11"  type="N"        length="6"  name="受卡方系统跟踪号" />
+	    <field index="12"  type="TIME"     length="6"  name="受卡方所在地时间"/>
+	    <field index="13"  type="DATE4"    length="4"  name="受卡方所在地日期"/>
+	    <field index="14"  type="DATE_EXP" length="4"  name="卡有效期"/>
+	    <field index="15"  type="DATE4"    length="4"  name="清算日期"/>
+	    <field index="22"  type="N"        length="3"  name="服务点输入方式码"/>
+	    <field index="23"  type="N"        length="3"  name="卡序列号"/>
+	    <field index="25"  type="N"        length="2"  name="服务点条件码"/>
+	    <field index="26"  type="N"        length="2"  name="服务点PIN获取码"/>
+	    <field index="32"  type="N_LLVAR"              name="受理方标识码"/>
+	    <field index="35"  type="Z_LLVAR"              name="2磁道数据"/>
+	    <field index="36"  type="Z_LLLVAR"             name="3磁道数据"/>
+	    <field index="37"  type="ALPHA"    length="12" name="检索参考号"/>
+	    <field index="38"  type="ALPHA"    length="6"  name="检索参考号"/>
+	    <field index="39"  type="ALPHA"    length="2"  name="应答码"/>
+	    <field index="41"  type="ALPHA"    length="8"  name="受卡机终端标识码"/>
+	    <field index="42"  type="ALPHA"    length="15" name="受卡方标识码"/>
+	    <field index="44"  type="ALPHA_LLVAR"          name="附加响应数据"/>
+	    <field index="48"  type="N_LLLVAR"             name="附加数据"/>
+	    <field index="49"  type="ALPHA"    length="3"  name="交易货币代码"/>
+	    <field index="52"  type="B"        length="8"  name="个人标识码数据"/>
+	    <field index="53"  type="N"        length="16" name="安全控制信息"/>
+	    <field index="54"  type="ALPHA_LLLVAR"         name="附加金额"/>
+	    <field index="55"  type="LLLBIN"        	   name="IC卡数据域"/>
+	    <field index="56"  type="ALPHA_LLLVAR"         name="易宝信息返回"/>
+	    
+	    <field index="58"  type="ALPHA_LLLVAR"         maxlen="100"        name="PBOC电子钱包标准的交易信息"/>
+	    
+	    <field index="60"  type="N_LLLVAR"             maxlen="3"          name="自定义域">
+	        <field index="1"  type="N"            length="2"    name="消息类型码"/>
+	        <field index="2"  type="N"            length="6"    name="批次号"/>
+	        <field index="3"  type="N"            length="3"    name="网络管理信息码"/>
+	        <field index="4"  type="N"            length="1"    name="终端读取能力"/>
+	        <field index="5"  type="N"            length="5"    name="基于PBOC 借/贷记标准的IC 卡条件代码"/>
+	    </field>
+	    
+	    <field index="61"  type="N_LLLVAR"             maxlen="29"         name="原始信息域"/>
+	    <field index="62"  type="ALPHA_LLLVAR"         maxlen="512"        name="自定义域"/>
+	    
+	    <field index="63"  type="ALPHA_LLLVAR"         maxlen="163"        name="自定义域">
+	         <field index="1"  type="ALPHA"            length="3"    name="自定义域1"/>
+	         <field index="2"  type="ALPHA_LLLVAR"     maxlen="120"  name="自定义域2">
+	             <field index="1"  type="ALPHA_LLVAR"            maxlen="20"    name="发卡方保留域"/>
+	             <field index="2"  type="ALPHA_LLVAR"            maxlen="20"    name="中国银联保留域"/>
+	             <field index="3"  type="ALPHA_LLVAR"            maxlen="20"    name="受理机构保留域"/>
+	             <field index="4"  type="ALPHA_LLVAR"            maxlen="60"    name="POS 终端保留域"/>
+	         </field>
+	    </field>
+	    
+	    <field index="64"  type="B"                   length="8"          name="报文鉴别码"/>
+    </fields>  
+</iso8583>

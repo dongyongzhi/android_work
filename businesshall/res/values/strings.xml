@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">移动营业厅</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">设置运营商</string>
+    <string name="nofindpic">no pic</string>
+    <string name="addvalue">充值/缴费</string>
+    <string name="payment">缴费</string>
+    <string name="publicutilityfee">公共事业缴费</string>
+    <string name="opencard">选号入网</string>
+    <string name="businesschange">业务办理</string>
+    <string name="phonefee">手机话费</string>
+    <string name="telephonerecharge">固话充值</string>
+    <string name="orderflowpackage">订购流量包</string>
+    <string name="Demonstrationproject">演示项目选择</string>
+    <string name="bussinesshall">营业厅演示</string>
+    <string name="Entrance">消费宝演示</string>
+    <string name="ReadSFCARD">读身份证演示</string>
+    <string name="line">line</string>
+
+</resources>

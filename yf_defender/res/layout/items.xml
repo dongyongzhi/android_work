@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res/com.yf.defender"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="100dp"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/hello_world"/>
+
+    <TextView 
+        android:id="@+id/title"
+        android:layout_width="180dp"
+        android:layout_marginStart="20dp"
+        android:gravity="center_vertical"
+        android:layout_height="match_parent" />
+
+    
+     <com.yf.defender.RoundProgressBar
+        android:id="@+id/btnAnzhuang"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android_custom:roundColor="#00007aff"
+        android_custom:roundProgressColor="#007aff"
+        android_custom:textColor="#007aff"
+        android_custom:roundWidth="2dip"
+        android_custom:textSize="12sp" />
+
+</LinearLayout>

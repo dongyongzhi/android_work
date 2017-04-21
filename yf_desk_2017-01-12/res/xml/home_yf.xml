@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<desk>
+ <backcolor>FFEBEBEB</backcolor>
+
+ <package name="com.hftcom" color="FFE6E6E6" x="20" y="0" with="226" hight="195">
+   
+    <icon  iconfile="shaoyishao.png" left="73" top="50"   right="73"  bottom="100" /> 
+    <title text="扫一扫" left="73"    top="130" right="0" bottom="0" diplaymode="1" size="0" color="ff000000"/>
+    
+ </package>
+
+ <package name="com.yifeng.pay" color="FFE6E6E6"    x="246"  y="0" with="228" hight="195">
+ 
+    <icon  iconfile="fukuan.png"    left="74" top="50"   right="74"  bottom="100" /> 
+    <title text="付款码"  left="74"  top="130" right="0"  bottom="0" diplaymode="1" size="0" color="ff000000"/>
+    
+ </package>
+
+ <package name="com.hftcom" color="FFE6E6E6" x="474" y="0" with="226" hight="195">
+  
+    <icon  iconfile="shuaiyishua.png"  left="73" top="50"   right="73"  bottom="100" /> 
+    <title text="刷一刷" left="73"   top="130" right="0" bottom="0" diplaymode="1" size="0" color="ff000000"/>
+ </package>
+
+ <package name="com.android.huiyuan" color="FFFC5163" x="20" y="200" with="400" hight="300">
+    <icon  iconfile="hfthuiyuanka.png" left="110" top="80"   right="160"  bottom="140" /> 
+    <icon  iconfile="bq.png"        left="260" top="0"   right="0"  bottom="160" /> 
+    <title text="会员卡" left="110"   top="185" right="100" bottom="0" diplaymode="1" size="20" color="ffFFFFFF"/><!--0:代表全部居中 1:靠左显示 2:靠右显示 3:水平居中 4:垂直居中-->
+ </package>
+ 
+  <package name="com.android.licai" color="FFFB971F" x="425" y="200" with="275" hight="300">
+    <icon  iconfile="fc.png"  left="62" top="50"   right="63"  bottom="100" /> 
+    <icon  iconfile="bq.png"     left="135" top="0"   right="0"  bottom="160" /> 
+    <title text="福彩" left="62"  top="120" right="63" bottom="0" diplaymode="0" size="20" color="ffFFFFFF"/>
+ </package>
+ 
+  <package name="com.hftcom" color="FFF80809" x="20" y="505" with="680" hight="300">
+    <icon  iconfile="syt.png"  left="80" top="100"   right="400"  bottom="100" /> 
+    <title text="怡丰收银台"    left="280" top="100"   right="0"    bottom="100" diplaymode="4" size="25" color="ffFFFFFF"/>
+ </package>
+ 
+  <package name="com.yfcomm.businesshall" color="FF3C98FD" x="20" y="810" with="337" hight="270">
+
+    <icon  iconfile="busnisshall.png"  left="129" top="100"   right="128"  bottom="130" /> 
+    <title text="营业厅"    left="110" top="140"  right="60"  bottom="0" diplaymode="4" size="20" color="ffFFFFFF"/>
+ </package>
+ 
+  <package name="com.nian.preferential" color="FF4EC72E" x="362" y="810" with="338" hight="270">
+    <icon  iconfile="kajuan.png"   left="129" top="60"   right="129"  bottom="100" /> 
+    <icon  iconfile="bq.png"       left="180" top="0"    right="0"    bottom="130" /> 
+    <title text="卡券"    left="110" top="130"        right="100"  bottom="0" diplaymode="4" size="20" color="ffFFFFFF"/>
+ </package>
+  
+</desk>

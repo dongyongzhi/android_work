@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bluetooth_found"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingBottom="6dip"
+    android:orientation="horizontal" >
+
+    <ProgressBar
+        android:id="@+id/mSearching"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="6dip"
+        android:gravity="center_vertical"
+        android:indeterminateDrawable="@drawable/sync_posinfo" >
+    </ProgressBar>
+    <ImageView 
+        android:id="@+id/mImageSearch"
+        android:layout_width="20dip"
+        android:layout_height="20dip"
+        android:layout_marginTop="6dip"
+        android:visibility="gone"
+        android:background="@android:drawable/ic_search_category_default"/>
+    <TextView
+        style="@style/wrap_style"
+        android:id="@+id/mTextFoundState"
+        android:layout_marginTop="5dip"
+        android:gravity="center_vertical"
+        android:text="@string/lable_founding"
+        android:textColor="#666" />
+
+</LinearLayout>

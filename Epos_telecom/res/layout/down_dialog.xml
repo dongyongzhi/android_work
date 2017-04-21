@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/top_liner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_top"
+        android:orientation="horizontal"
+        android:padding="0dip"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/pTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="标题"
+            android:textSize="20dip"
+            android:layout_marginLeft="50dip"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_body"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/pMsg"
+            style="@style/wrap_style"
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="3dip"
+            android:layout_marginTop="3dip"
+            android:padding="5dip"
+            android:textColor="#878175"
+            android:textSize="18dip" />
+
+        <ProgressBar
+            android:id="@+id/update_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip" />
+
+        <LinearLayout
+            style="@style/fill_style"
+            android:layout_marginBottom="5dip"
+            android:orientation="horizontal"
+            android:padding="5dip" >
+
+            <Button
+                android:id="@+id/cancel_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="40dip"
+                android:layout_weight="1"
+                android:background="@drawable/alert_dialog_btn"
+                android:text="@string/alert_dialog_cancel"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

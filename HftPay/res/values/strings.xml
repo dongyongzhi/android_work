@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tel_version">2.1-update1</string>
+    <string name="app_name">惠付通收银</string>
+    <string name="write_name">输入用户名</string>
+    <string name="write_pwd">输入密码</string>
+    <string name="save_name_pwd">记住用户名和密码</string>
+    <string name="loding_text">正在登录···</string>
+    <string name="alert_dialog_cancel">取 消</string>
+    <string name="alert_dialog_ok">确 认</string>
+    <string name="alert_dialog_finish_title">退出程序</string>
+    <string name="alert_dialog_finish">是否退出程序?</string>
+    <string name="main_fetch_fail">网络异常</string>
+    <string name="NoSignalException">对不起，无法连接到网络，请检查网络配置！</string>
+    <string name="netWork_set">网络设置</string>
+    <string name="loading">正在加载,请稍后&#8230;&#8230;&#8230;</string>
+    <string name="copy_right"></string>
+    <string name="copy_about">益宝支付介绍</string>
+    <string name="txtTitleBack">返回</string>
+    <string name="btnReset">重置</string>
+    <string name="btnnextStep">下一步</string>
+    <string name="purchaseorder">签购单</string>
+      
+    <string name="btnConfirm">确定</string>
+    <string name="btnCancel">取消</string>
+    <string name="btnClear">清除</string>
+    <string name="btnBack">返回</string>
+    <string name="btnDelete">删除</string>
+    <string name="btnRepeatQuery">再次查询</string>
+    <string name="btnTradeCompleted">交易成功</string>
+    <string name="btnRevoke">撤销</string>
+    <string name="btnSend">发送</string>
+    <string name="btnSkip">跳 过</string>
+    <string name="btnTransQuery">查询</string>
+    <string name="txt_query_notice">正在查询交易信息，请稍等&#8230;&#8230;&#8230;</string>
+    <string name="txt_query_acount">正在查询账户信息，请稍等&#8230;&#8230;&#8230;</string>
+    <string name="txt_query_xiane">正在查询交易限额信息，请稍等&#8230;&#8230;&#8230;</string>
+
+    
+    <string name="last_transaction_print">末笔交易打印</string>
+    <!-- dialog title -->
+    <string name="dialog_title_warn">提醒</string>
+
+    <!-- activity title -->
+    <string name="title_backmoney">退货</string>
+    <string name="title_enter_money">消费-收款</string>
+    <string name="title_news">新闻中心</string>
+    <string name="title_news_detail">新闻中心详情</string>
+    <string name="title_xftpoint">益宝聚焦</string>
+    <string name="title_xftpoint_detail">益宝聚焦详情</string>
+    <string name="title_pos_info">设备信息</string>
+    <string name="title_cancel_order">消费-撤销</string>
+    <string name="title_query_balance">余额查询</string>
+    <string name="title_sign_cardname">签名</string>
+    <string name="title_order_detail">订单详情</string>
+    <string name="title_receipt">发送收据</string>
+    <string name="title_swiping_card">请刷卡</string>
+    <string name="title_trans_success">交易成功</string>
+    <string name="title_notice">公告通知</string>
+    <string name="title_reprint">POS重打印</string>
+    <string name="title_select_pos">选择POS终端</string>
+    <string name="title_query_order_list">交易明细</string>
+    <string name="title_query_order_detail">消费交易详情</string>
+    <string name="title_query_acount">账户查询</string>
+    <string name="title_query_limit">交易限额查询</string>
+    <string name="title_help">帮助</string>
+    <string name="title_about">关于我们</string>
+    <string name="title_dialog_sign">签到</string>
+    <!-- lable message -->
+    <string name="lable_name">名称：</string>
+    <string name="lable_menu">菜单</string>
+    <string name="lable_cancel">撤销金额</string>
+    <string name="lable_purchase">消费金额</string>
+    <string name="lable_card">卡号：</string>
+    <string name="lable_date">日期：</string>
+    <string name="lable_money">金额：</string>
+    <string name="lable_time">时间：</string>
+    <string name="label_pos_info">设备信息</string>
+    <string name="label_customer_info">商户信息</string>
+    <string name="lable_customerName">商户名称：</string>
+    <string name="lable_customer_number">商户编号：</string>
+    <string name="lable_term_number">终端编号：</string>
+    <string name="lable_tradeSuccess">交易成功</string>
+    <string name="lable_card_signname">持卡人签名：</string>
+    <string name="lable_issuing_bank">发卡行号：</string>
+    <string name="lable_trans_type">交易类型：</string>
+    <string name="lable_exp_date">有效期：</string>
+    <string name="lable_batch_no">交易银行卡号：</string>
+    <string name="lable_voucher_no">凭证号：</string>
+    <string name="lable_auth_no">授权码：</string>
+    <string name="lable_refer_no">参考号：</string>
+    <string name="lable_trans_time">交易时间：</string>
+    <string name="lable_trans_money">交易金额：</string>
+    <string name="lable_operator_no">操作员号：</string>
+    <string name="lable_card_sign">持卡人签名：</string>
+    <string name="lable_founding">正在查找POS终端&#8230;&#8230;&#8230;</string>
+    <string name="lable_sendMessage">要发送的信息内容：</string>
+    <string name="lable_orderCode">订单号：</string>
+    <string name="lable_cardNo_4">交易日期：</string>
+    <string name="lable_order_state">订单状态：</string>
+
+    <!-- hint message -->
+    <!-- <string name="hintSerNo">原凭证号</string> -->
+    <string name="hintSerNo">原订单号</string>
+    <string name="hintBatchNo">原批次号</string>
+    <string name="hintReferenceNumber">原参考号</string>
+    <string name="hintBackMoney">退货金额</string>
+    <string name="hintEnterPayMoney">输入收款金额</string>
+    <string name="hintRecevType">选择收据接收方式：</string>
+    <string name="hintEmail">请输入邮箱地址</string>
+    <string name="hintPhone">请输入手机号</string>
+    <string name="hintOrderCode">订单号</string>
+    <string name="hintStartDate">开始日期</string>
+    <string name="hintEndDate">结束日期</string>
+    <string name="hintAuthNo">授权码</string>
+    <string name="hintTransDate">原交易日期</string>
+    <string name="hintPOSName">POS名称</string>
+    <string name="hintExternalId">参考号</string>
+    <string name="hintOperNo">操作员号</string>
+    <string name="hintOperPwd">操作员密码</string>
+
+    <!-- legend message -->
+    <string name="legend_trans_purchase">请确认收款金额，当天可撤销。</string>
+    <!-- <string name="legend_trans_serno">原凭证号为6位数字，请按票据上填写</string> -->
+    <string name="legend_trans_serno">原订单号为20位数字，请按票据上填写</string>
+    <string name="legend_trans_batchno">原批次号为6位数字，请按票据上填写</string>
+    <string name="legend_trans_referenceno">原参考号为12位数字，请按票据上填写</string>
+    <string name="legend_trans_backmoney">退货金额应小于等于交易金额</string>
+    <string name="legend_trans_cancelorder_desc">只能在原交易的POS机上撤销当天的交易</string>
+    <string name="legend_trans_authno">授权码为6位数字，请按票据上填写。(如果存在请填写)</string>
+    <string name="legend_trans_antho_exists"> 如果存在请填写</string>
+    <string name="legend_check_sign">点击签名</string>
+    <string name="legend_agree_sign">本人确认以上交易,同意将其计入本卡帐户</string>
+    
+     <string name="block_agree_sign">为保证您的资金能及时到账,请使用正楷签名</string>
+    
+    <string name="legend_trade_receipt">交易收据</string>
+    <string name="legend_order_detail">订单详情</string>
+    <string name="legend_no_data">暂无交易记录</string>
+    <string name="legend_swiping_card">请刷卡输入密码&#8230;&#8230;&#8230;</string>
+    <string name="legend_notice">公告</string>
+    <string name="radio_phone">手机</string>
+    <string name="radio_email">邮件</string>
+
+    <!-- wran message -->
+    <string name="wran_term_not_found_help"><Data><![CDATA[\n\r1、确认POS终端己打开。\n\r2、确认和POS终端己配对成功。\n\r3、如果己配对请取消后重新配对。]]></Data></string>
+    <string name="wran_bt_name_unknown">未知</string>
+    <!-- warn message -->
+    <!-- <string name="warn_SerNo_required">请输入6位原凭证号！</string> -->
+    <string name="warn_SerNo_required">请输入20位订单号！</string>
+    <string name="warn_BatchNo_required">请输入6位原批次号！</string>
+    <string name="warn_ReferenceNumber_required">请输入12位原参考号！</string>
+    <string name="warn_BackMoney_required">请输入退货金额！</string>
+    <string name="warn_transDate_required">请选择原交易日期</string>
+    <string name="warn_OperNo_required">请输入2位操作员号</string>
+    <string name="warn_OperPwd_required">请输入4位操作员密码</string>
+
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit0">0</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit1">1</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit2">2</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit3">3</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit4">4</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit5">5</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit6">6</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit7">7</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit8">8</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit9">9</string>
+    <string name="bt_not_enabled_leaving">蓝牙未成功打开</string>
+    
+    <!--扫一扫-->
+    <string name="title_wx_pay">微信支付</string>
+    <string name="title_activity_scan_qr_code">扫一扫</string>
+    <string name="qc_code_close">关闭</string>
+    <string name="qr_code_select_picture">照片</string>
+    <string name="qr_code_open_flash_light">打开闪光灯</string>
+    <string name="qr_code_close_flash_light">关闭闪光灯</string>
+    <string name="qr_code_auto_scan_notification">将二维码放入框内，即可自动扫描</string>
+    <string name="qr_code_notification">提示</string>
+    <string name="qr_code_camera_not_open">您的相机功能好像没有打开哦~去\"设置>隐私>相机\"设置一下吧</string>
+    <string name="qr_code_positive_button_know">知道了</string>
+    <string name="qr_code_positive_button_confirm">确认</string>
+    <string name="qr_code_could_not_read_qr_code_from_picture">没有读出图片中的链接，换张图片试试吧~</string>
+    <string name="qr_code_could_not_read_qr_code_from_scanner">对不起，无法打开扫出的内容</string>
+    <string name="qr_code_camera_not_found">未检测到相机</string>
+
+</resources>

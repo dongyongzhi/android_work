@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F1F1F1"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/top"
+        layout="@layout/title" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/top"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:id="@+id/tip_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <TextView
+                style="@style/sendMessage_title"
+                android:text="@string/hintRecevType" />
+
+            <RadioGroup
+                android:id="@+id/radioSendType"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radioPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:textColor="@color/black"
+                    android:text="@string/radio_phone" />
+
+                <RadioButton
+                    android:id="@+id/radioEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:textColor="@color/black"
+                    android:text="@string/radio_email" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:id="@+id/typePhoneInput"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_weight="0"
+                    android:contentDescription="@string/hintPhone"
+                    android:src="@drawable/phone" />
+
+                <EditText
+                    android:id="@+id/phone_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="@string/hintPhone"
+                    android:inputType="phone"
+                    android:textColor="@color/black"
+                    android:textColorHint="#A0A0A0"
+                    android:textSize="20dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/typeEmailInput"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/input_bg"
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_weight="0"
+                    android:contentDescription="@string/hintEmail"
+                    android:src="@drawable/email" />
+
+                <EditText
+                    android:id="@+id/email_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:inputType="textEmailAddress"
+                    android:gravity="center_vertical"
+                    android:hint="@string/hintEmail"
+                    android:textColor="@color/black"
+                    android:textColorHint="#A0A0A0"
+                    android:textSize="20dip" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/sendMessage_title"
+                android:id="@+id/mTextLabelMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lable_sendMessage" />
+
+            <EditText
+                android:id="@+id/contentMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dip"
+                android:paddingBottom="5dip"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                android:background="@drawable/input_bg" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dip"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/send_btn"
+                    style="@style/buttonstyle_avg"
+                    android:layout_weight="1"
+                    android:text="@string/btnSend" />
+
+                <Button
+                    android:id="@+id/skip_btn"
+                    style="@style/buttonstyle_avg_grey"
+                    android:layout_weight="1"
+                    android:text="@string/btnSkip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

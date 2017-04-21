@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/recomd"
+        android:icon="@drawable/ic_menu_forward"
+        android:title="软件推荐  ">
+    </item>
+    <item
+        android:id="@+id/exit"
+        android:icon="@drawable/ic_menu_exit"
+        android:title="退出系统">
+    </item>
+
+</menu>

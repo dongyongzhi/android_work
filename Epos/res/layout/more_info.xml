@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F5F6F8" >
+
+    <LinearLayout
+        android:id="@+id/top"
+        style="@style/fill_wrap_style"
+        android:background="@drawable/top_tilte_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+         <include layout="@layout/title"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sbxx"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/round_bg"
+        android:orientation="vertical"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip" >
+
+        <TextView
+            style="@style/fill_wrap_style"
+            android:text="@string/label_pos_info"
+            android:textColor="#000"
+            android:textSize="18dip" />
+
+        <!-- 设备名称 -->
+
+        <TextView
+            android:id="@+id/posName"
+            style="@style/fill_wrap_style"
+            android:layout_marginTop="5dip"
+            android:textColor="#828282" />
+
+        <!-- 设  备  号 -->
+
+        <TextView
+            android:id="@+id/posNo"
+            style="@style/fill_wrap_style"
+            android:layout_marginTop="5dip"
+            android:textColor="#828282" />
+
+        <!-- 序列号 -->
+
+        <TextView
+            android:id="@+id/posSerialNumber"
+            style="@style/fill_wrap_style"
+            android:layout_marginTop="5dip"
+            android:textColor="#828282" />
+
+        <!-- 设备地址 -->
+
+        <TextView
+            android:id="@+id/posAddress"
+            style="@style/fill_wrap_style"
+            android:layout_marginTop="5dip"
+            android:textColor="#828282" />
+
+        <!-- 通信方式 -->
+
+        <TextView
+            android:id="@+id/posCommType"
+            style="@style/fill_wrap_style"
+            android:layout_marginTop="5dip"
+            android:textColor="#828282" />
+
+        <!-- 设备能力 -->
+
+        <TextView
+            android:id="@+id/posRemark"
+            style="@style/fill_wrap_style"
+            android:layout_marginTop="5dip"
+            android:textColor="#828282" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sbxx"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/round_bg"
+        android:orientation="vertical"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip" >
+
+        <TextView
+            style="@style/fill_wrap_style"
+            android:text="@string/label_customer_info"
+            android:textColor="#000"
+            android:textSize="18dip" />
+
+        <!-- 商  户  号 -->
+
+        <TextView
+            android:id="@+id/customerNo"
+            style="@style/fill_wrap_style"
+            android:layout_marginTop="5dip"
+            android:textColor="#828282" />
+
+        <!-- 商 户名称 -->
+
+        <TextView
+            android:id="@+id/customerName"
+            style="@style/fill_wrap_style"
+            android:layout_marginTop="5dip"
+            android:textColor="#828282" />
+
+    </LinearLayout>
+
+</RelativeLayout>

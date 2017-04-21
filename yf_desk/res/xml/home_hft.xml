@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<desk>
+ <backcolor>FFEBEBEB</backcolor>
+
+ <package name="com.hftcom" color="FFE6E6E6" x="20" y="0" with="226" hight="195">
+   
+    <icon  iconfile="shaoyishao.png" left="53" top="30"   right="100"  bottom="100" /> 
+    <title text="扫一扫" left="53"     top="130" right="100"  bottom="50"   diplaymode="0" size="0" color="ff000000"/>
+    
+ </package>
+
+ <package name="com.yifeng.pay" color="FFE6E6E6"    x="246"  y="0" with="228" hight="195">
+ 
+    <icon  iconfile="fukuan.png"    left="63" top="30"   right="100"  bottom="100" /> 
+    <title text="付款码"  left="63"  top="130" right="100"  bottom="50" diplaymode="0" size="0" color="ff000000"/>
+    
+ </package>
+
+ <package  name="com.hftcom" color="FFE6E6E6" x="474" y="0" with="226" hight="195">
+  
+    <icon  iconfile="shuaiyishua.png"  left="63" top="30"   right="100"  bottom="100" /> 
+    <title text="刷一刷" left="63"   top="130" right="100" bottom="50" diplaymode="0" size="0" color="ff000000"/>
+ </package>
+
+ <package  name="com.android.huiyuan"   color="FFFC5163" x="20" y="200" with="400" hight="300">
+    <icon  iconfile="hfthuiyuanka.png" left="110" top="50"    right="160" bottom="140" /> 
+    <icon  iconfile="bq.png"           left="300" top="0"     right="100"  bottom="100" /> 
+    <title text="会员卡" left="110"      top="180"  right="160" bottom="50" diplaymode="0" size="20" color="ffFFFFFF"/><!--0:代表全部居中 1:靠左显示 2:靠右显示 3:水平居中 4:垂直居中-->
+ </package>
+ 
+ <package  name="com.android.licai" color="FFFB971F"  x="425" y="200"   with="275" hight="300">
+    <icon  iconfile="fc.png"     left="100"   top="80"    right="100"   bottom="100" /> 
+    <icon  iconfile="bq.png"     left="175"   top="0"     right="100"   bottom="100" /> 
+    <title text="福彩" left="100"   top="180"  right="100" bottom="50"  diplaymode="0" size="20" color="ffFFFFFF"/>
+ </package>
+ 
+  <package name="com.hftcom" color="FFF80809" x="20" y="505" with="680" hight="300">
+    <icon  iconfile="hsy.png"  left="70" top="100"   right="200"  bottom="100" /> 
+    <title text="惠民收银台"      left="280" top="100"  right="300"    bottom="100" diplaymode="4" size="25" color="ffFFFFFF"/>
+ </package>
+ 
+  <package name="com.huimin.ordersystem" color="FF3C98FD" x="20" y="810" with="337" hight="270">
+
+    <icon  iconfile="huiming.png"  left="100" top="60"   right="150"  bottom="120" /> 
+    <title text="惠配通"    left="100" top="180"        right="150"  bottom="70" diplaymode="0" size="20" color="ffFFFFFF"/>
+ </package>
+ 
+  <package name="com.hjy.huijiayou" color="FF4EC72E" x="362" y="810" with="338" hight="270">
+    <icon  iconfile="hjy.png"  left="100" top="60"   right="150"  bottom="120" /> 
+    <title text="惠加油"    left="100" top="180"       right="150"  bottom="70" diplaymode="0" size="20" color="ffFFFFFF"/>
+ </package>
+  
+</desk>

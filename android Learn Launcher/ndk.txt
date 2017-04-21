@@ -1,0 +1,26 @@
+ 1 下载NDK
+
+   地址: http://developer.android.com/tools/sdk/ndk/index.html
+
+ 2 下载后双击自动解压到当前目录，建议与android sdk平级
+
+   D:\android\android-ndk-r10c
+
+ 3 添加环境变量  
+
+   ndk=D:\android\android-ndk-r10c
+
+ 4 添加演示程序
+
+    eclipse下右键 New -> Other -> Android ->Android project from Existing Source
+    Browse 选择 D:\android\android-ndk-r10c\samples\hello-jni
+    Finsh
+
+ 
+ 5 编译jni 
+
+    cd <工作空间>/hello-jni
+    %ndk%/ndk-build(或者 D:\android\android-ndk-r10c\ndk-build)
+
+
+6.设置 eclipse   右键整个工程 设置为 unix

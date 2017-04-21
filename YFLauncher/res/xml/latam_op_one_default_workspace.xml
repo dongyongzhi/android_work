@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2014, The Linux Foundation. All rights reserved.
+     Not a Contribution.
+
+     Copyright (C) 2009 The Android Open Source Project
+
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.yfcomm.launcher">
+    <folder
+        launcher:screen="1"
+        launcher:title="@string/default_workspace_folder_name_game"
+        launcher:x="0"
+        launcher:y="3" >
+        <favorite
+            launcher:className="com.qti.gameloft1.GameLoft1Activity"
+            launcher:packageName="com.qti.gameloft1" />
+        <favorite
+            launcher:className="com.qti.gameloft2.GameLoft2Activity"
+            launcher:packageName="com.qti.gameloft2" />
+    </folder>
+
+    <favorite
+        launcher:className="com.android.music.MusicBrowserActivity"
+        launcher:packageName="com.android.music"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="3" />
+    <favorite
+        launcher:className="com.android.camera.CameraActivity"
+        launcher:packageName="com.android.camera2"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="3" />
+    <favorite
+        launcher:className="com.android.gallery3d.app.Gallery"
+        launcher:packageName="com.android.gallery3d"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="3" />
+
+    <!-- Middle Screen ( screen 1) -->
+    <folder
+        launcher:screen="2"
+        launcher:title="@string/foldname_google"
+        launcher:x="0"
+        launcher:y="3" >
+        <favorite
+            launcher:className="com.google.android.apps.chrome.Main"
+            launcher:packageName="com.android.chrome" />
+        <favorite
+            launcher:className="com.google.android.gm.ConversationListActivityGmail"
+            launcher:packageName="com.google.android.gm" />
+        <favorite
+            launcher:className="com.google.android.apps.plus.phone.HomeActivity"
+            launcher:packageName="com.google.android.apps.plus" />
+        <favorite
+            launcher:className="com.google.android.maps.MapsActivity"
+            launcher:packageName="com.google.android.apps.maps" />
+        <favorite
+            launcher:className="com.android.music.activitymanagement.TopLevelActivity"
+            launcher:packageName="com.google.android.music" />
+        <favorite
+            launcher:className="com.google.android.youtube.videos.EntryPoint"
+            launcher:packageName="com.google.android.videos" />
+        <favorite
+            launcher:className="com.google.android.apps.books.app.BooksActivity"
+            launcher:packageName="com.google.android.apps.books" />
+        <favorite
+            launcher:className="com.google.apps.dots.android.app.activity.CurrentsStartActivity"
+            launcher:packageName="com.google.android.apps.magazines" />
+        <favorite
+            launcher:className="com.google.android.gms.games.ui.destination.main.MainActivity"
+            launcher:packageName="com.google.android.play.games" />
+        <favorite
+            launcher:className="com.google.android.apps.docs.app.NewMainProxyActivity"
+            launcher:packageName="com.google.android.apps.docs" />
+        <favorite
+            launcher:className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity"
+            launcher:packageName="com.google.android.youtube" />
+        <favorite
+            launcher:className="com.google.android.apps.plus.phone.ConversationListActivity"
+            launcher:packageName="com.google.android.apps.plus" />
+        <favorite
+            launcher:className="com.google.android.talk.SigningInActivity"
+            launcher:packageName="com.google.android.talk" />
+    </folder>
+
+    <appwidget
+        launcher:className="com.google.android.googlequicksearchbox.SearchWidgetProvider"
+        launcher:packageName="com.google.android.googlequicksearchbox"
+        launcher:screen="2"
+        launcher:spanX="4"
+        launcher:spanY="1"
+        launcher:x="0"
+        launcher:y="0" />
+
+    <favorite
+        launcher:className="com.android.vending.AssetBrowserActivity"
+        launcher:packageName="com.android.vending"
+        launcher:screen="2"
+        launcher:x="1"
+        launcher:y="3" />
+    <favorite
+        launcher:className="com.telcel.imk.MainActivity"
+        launcher:packageName="com.telcel.imk"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="3" />
+    <favorite
+        launcher:className="com.clarovideo.app.ui.activities.SplashActivity"
+        launcher:packageName="com.dla.android"
+        launcher:screen="2"
+        launcher:x="3"
+        launcher:y="3" />
+
+    <appwidget
+        launcher:className="com.gameloft.android.gdc.GDCWidgetProvider"
+        launcher:packageName="com.gameloft.android.gdc"
+        launcher:screen="3"
+        launcher:spanX="4"
+        launcher:spanY="4"
+        launcher:x="0"
+        launcher:y="0" />
+
+    <!-- Hotseat (We use the screen as the position of the item in the hotseat) -->
+    <favorite
+        launcher:className="com.android.dialer.DialtactsActivity"
+        launcher:container="-101"
+        launcher:packageName="com.android.dialer"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.telcel.contenedor.gui.activities.AppsContainerActivity"
+        launcher:container="-101"
+        launcher:packageName="com.telcel.contenedor"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.android.browser.BrowserActivity"
+        launcher:container="-101"
+        launcher:packageName="com.android.browser"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.android.mms.ui.ConversationList"
+        launcher:container="-101"
+        launcher:packageName="com.android.mms"
+        launcher:screen="3"
+        launcher:x="3"
+        launcher:y="0" />
+
+</favorites>

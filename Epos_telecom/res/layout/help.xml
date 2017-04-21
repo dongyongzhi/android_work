@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F1F1F1"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/top"
+        style="@style/fill_wrap_style"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top_bg"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/top_back"
+            style="@style/wrap_style"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/top_btn_back_bg"
+            android:gravity="center"
+            android:paddingLeft="5dip"
+            android:text="返回"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/userTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="帮助"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/top"
+        android:layout_margin="5dip"
+        android:scrollbars="vertical"
+        android:background="@drawable/common_bg" >
+
+        <LinearLayout
+            android:id="@+id/tip_info"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+                <LinearLayout
+                    android:id="@+id/layout_root"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="10dp" >
+
+                    <ImageView
+                        android:id="@+id/image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/ic_launcher" />
+
+                    <LinearLayout
+                        android:id="@+id/layout_root"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp" >
+
+                        <TextView
+                            android:id="@+id/text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/app_name"
+                            android:textColor="@color/black"
+                            android:textSize="20dip" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/mail"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:text="软件版本:1.0"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/mail"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:autoLink="all"
+                    android:text="软件描述:"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/www"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:text="         翼支付手机POS。"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/aaa"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:autoLink="all"
+                    android:text="版权所有：中国电信集团   北京研究院"
+                    android:textColor="@color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

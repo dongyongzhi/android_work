@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F1F1F1"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/top"
+        layout="@layout/title" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/bottom"
+        android:layout_below="@+id/top"
+        android:layout_marginBottom="10dip"
+        android:padding="10dip"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:id="@+id/tip_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/common_bg_green"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:gravity="center"
+                android:text="@string/legend_trade_receipt"
+                android:textColor="#696A6E"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#D7D7D7" />
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TableRow android:layout_marginTop="5dip" >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lable_customerName"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:id="@+id/mTextCustomerName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lable_customer_number"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/mTextCustomerNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lable_term_number"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/mTextPosNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lable_issuing_bank"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/mTextPushCardNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lable_card"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/mTextCardNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lable_trans_type"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/mTextTransType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lable_exp_date"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/mTextExpDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lable_batch_no"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/mTextBatchNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lable_voucher_no"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/mTextVoucherNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lable_auth_no"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/mTextAuthNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lable_refer_no"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/mTextReferNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lable_trans_time"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/mTextTransTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lable_operator_no"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/mTextOpteratorNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="5dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lable_trans_money"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/mTextTransMoney"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#0080CA" />
+                </TableRow>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_marginBottom="5dip"
+                    android:layout_marginTop="5dip"
+                    android:background="#D7D7D7" />
+
+                <LinearLayout
+                    android:id="@+id/signWrapper"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lable_card_sign"
+                        android:textColor="@color/black" />
+                    <!-- 签名 -->
+                    <ImageView
+                        android:id="@+id/iv_sign"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/legend_check_sign" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dip"
+                        android:layout_marginBottom="5dip"
+                        android:layout_marginTop="5dip"
+                        android:background="#D7D7D7" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/legend_agree_sign"
+                        android:textSize="10dip" />
+                </LinearLayout>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dip"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:background="@drawable/alert_dialog_btn"
+            android:gravity="center"
+            android:text="@string/btnRevoke"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_grey_btn"
+            android:gravity="center"
+            android:text="@string/btnBack"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

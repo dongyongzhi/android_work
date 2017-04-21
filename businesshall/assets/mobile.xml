@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='GBK'?>
+<phone>
+
+    <plan>
+
+        <package
+            money="18"
+            note="国内通话 0分钟 、国内流量 100M"
+            planname="移动4G飞享套餐18元" />
+
+        <package
+            money="28"
+            note="国内通话 50分钟 、国内流量 100M"
+            planname="移动4G飞享套餐28元" />
+
+        <package
+            money="38"
+            note="国内通话 50分钟 、国内流量 300M"
+            planname="移动4G飞享套餐38元" />
+
+        <package
+            money="48"
+            note="国内通话 50分钟 、国内流量 500M"
+            planname="移动4G飞享套餐48元" />
+
+        <package
+            money="58"
+            note="国内通话 100分钟 、国内流量 500M"
+            planname="移动4G飞享套餐58元" />
+
+        <package
+            money="88"
+            note="国内通话 220分钟 、国内流量 700M"
+            planname="移动4G飞享套餐88元" />
+
+        <package
+            money="138"
+            note="国内通话 500分钟 、国内流量1G"
+            planname="移动4G飞享套餐138元" />
+
+        <package
+            money="158"
+            note="国内通话 500分钟 、国内流量 2G"
+            planname="移动4G飞享套餐158元" />
+
+        <package
+            money="238"
+            note="国内通话 1000分钟 、国内流量 2G"
+            planname="移动4G飞享套餐238元" />
+
+        <package
+            money="268"
+            note="国内通话 1000分钟 、国内流量 3G"
+            planname="移动4G飞享套餐268元" />
+
+        <package
+            money="338"
+            note="国内通话 2000分钟 、国内流量 3G"
+            planname="移动4G飞享套餐338元" />
+
+        <package
+            money="588"
+            note="国内通话 4000分钟 、国内流量 6G"
+            planname="移动4G飞享套餐588元" />
+    </plan>
+
+    <numberpool>
+
+        <telephone
+            num="13548541507"
+            pirce="100" />
+
+        <telephone
+            num="13548546905"
+            pirce="100" />
+
+        <telephone
+            num="13548576203"
+            pirce="100" />
+
+        <telephone
+            num="13548614207"
+            pirce="100" />
+
+        <telephone
+            num="13548614805"
+            pirce="100" />
+
+        <telephone
+            num="13548617206"
+            pirce="100" />
+
+        <telephone
+            num="13548623107"
+            pirce="100" />
+
+        <telephone
+            num="13548623504"
+            pirce="100" />
+
+        <telephone
+            num="13548623604"
+            pirce="100" />
+
+        <telephone
+            num="13548625403"
+            pirce="100" />
+
+        <telephone
+            num="13548626401"
+            pirce="100" />
+
+        <telephone
+            num="13548627507"
+            pirce="100" />
+
+        <telephone
+            num="13548631604"
+            pirce="100" />
+
+        <telephone
+            num="13548632404"
+            pirce="100" />
+
+        <telephone
+            num="13548633104"
+            pirce="100" />
+
+        <telephone
+            num="13548668104"
+            pirce="100" />
+    </numberpool>
+
+</phone>

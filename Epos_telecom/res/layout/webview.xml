@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="0dip" >
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="0dip"
+        android:scrollbars="none" />
+
+    <LinearLayout
+        android:id="@+id/publicloading"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:background="#fff"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical" >
+
+        <ProgressBar
+            android:id="@+id/ProgressBar01"
+            style="@style/publicloadingProgressStyle"
+            android:layout_width="50dip"
+            android:layout_height="50dip" >
+        </ProgressBar>
+
+        <TextView
+            style="@style/wrap_style"
+            android:layout_marginTop="5dip"
+            android:gravity="center_vertical"
+            android:text="正在加载数据,请稍后..."
+            android:textColor="#ccc" />
+    </LinearLayout>
+
+</RelativeLayout>

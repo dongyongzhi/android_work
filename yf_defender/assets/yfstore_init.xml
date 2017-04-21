@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFStore>
+<url>192.168.1.168/yfstore/</url>
+<application>
+<package name="com.android.chrome" version="51.0.2704.81" label="Chrome" apk="apps/com.android.chrome.apk">
+<fileSize>45350917</fileSize>
+<updateTime>2016-06-15 17:31:30</updateTime>
+<icon>res/com.android.chrome.png</icon>
+<certMD5>CDE9F6208D672B54B1DACC0B7029F5EB</certMD5>
+<fileMD5>76FC47036130878711A35AA818D59303</fileMD5>
+<privilege>111111111</privilege>
+<note/>
+</package>
+<package name="com.huan.appstore" version="3.0.14" label="欢视商店" apk="apps/com.huan.appstore.apk">
+<fileSize>2933453</fileSize>
+<updateTime>2016-07-13 17:59:37</updateTime>
+<icon>res/com.huan.appstore.png</icon>
+<certMD5>A86C909489C46272280FD5CF05687F33</certMD5>
+<fileMD5>12FD6C173E7EAF1FD3B7CFC832AC1D15</fileMD5>
+<privilege/>
+<note/>
+</package>
+<package name="com.phonelink.developer" version="1.0" label="开发者选项" apk="apps/com.phonelink.developer.apk">
+<fileSize>248318</fileSize>
+<updateTime>2016-07-13 18:00:13</updateTime>
+<icon>res/com.phonelink.developer.png</icon>
+<certMD5>AF9231D67D186CB0BF85C3AE7DDDED22</certMD5>
+<fileMD5>D69043E222787FFED38D821527250E41</fileMD5>
+<privilege/>
+<note/>
+</package>
+<package name="com.litian.huiming" version="1.3.2" label="惠生活" apk="apps/com.litian.huiming.apk">
+<fileSize>17276296</fileSize>
+<updateTime>2016-06-15 16:18:12</updateTime>
+<icon>res/com.litian.huiming.png</icon>
+<certMD5>C894A7D17899B7E90FFA40CC8ED5D5FE</certMD5>
+<fileMD5>955B697BE810096A0EC77BDF88442654</fileMD5>
+<privilege>100000001</privilege>
+<note/>
+</package>
+<package name="com.huimin.ordersystem" version="1.08" label="惠配通" apk="apps/com.huimin.ordersystem.apk">
+<fileSize>2965995</fileSize>
+<updateTime>2016-06-15 16:18:03</updateTime>
+<icon>res/com.huimin.ordersystem.png</icon>
+<certMD5>C894A7D17899B7E90FFA40CC8ED5D5FE</certMD5>
+<fileMD5>581C4D9E680F65249DB3F385BDB95D2C</fileMD5>
+<privilege>010010010</privilege>
+<note/>
+</package>
+</application>
+<YFOTA>
+<ota name="ota20140401210.zip">
+<Version0>1.0|1.1|1.2|2.0</Version0>
+<Version1>2.1</Version1>
+<Date>2016-04-01</Date>
+<MD5>FCC9895A0B7C9C147A74B3A1BCD58B66</MD5>
+</ota>
+<ota name="ota20160501300.zip">
+<Version0>2.1</Version0>
+<Version1>3.0</Version1>
+<Date>2016-05-01</Date>
+<MD5>ABC9895A0B7C9C147A74B3A1BCD58BCD</MD5>
+<Note>this is a ota test</Note>
+</ota>
+</YFOTA>
+</YFStore>
+<!--968332399CF1F403D38C40CFD335C67FD70274B2BF7B671C7AF4676700227A522F6FADC480A92AB5CA41430C0D04CD7529B5F627EAD7706C0FE4D9E2D6F30D1877D3F9EC898FCFE359B2BD595DBC5A82CA3012C297FFA4DD43CF009D20BF5093462E3E1BF230D07A8FAF2B052B1A802D73456FC362F2DC7EB836ABD5815351B07C77A8E91928C46B9C0F736DC2B83024010BCBBD6714FE6EFBA2507D9A953A52AA2895028B3B0A333D27EC455331EB7DF781C69C7A26708E4CD6AFE37E46E0E864ECA7ED08827D77749ECC820A7724F72F669995BAF0664C0804C562D71BAAF5E5C74EED8E445CE31CD6214E8B342C48E023906905C318FB9EEAB94ABD2BD6DE-->

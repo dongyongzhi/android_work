@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F5F6F8" >
+
+    <!-- title -->
+
+    <LinearLayout
+        android:id="@+id/top"
+        style="@style/fill_wrap_style"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top_tilte_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+        
+        <include layout="@layout/title"/>
+        
+    </LinearLayout>
+
+    <!-- query tag -->
+
+    <LinearLayout
+        android:id="@+id/linear_his"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top" >
+    </LinearLayout>
+
+    <!-- 加载进度显示 -->
+
+    <LinearLayout
+        android:id="@+id/publicloading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/linear_his"
+        android:layout_centerInParent="true"
+        android:background="#fff"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ProgressBar
+            style="@style/publicloadingProgressStyle"
+            android:layout_width="50dip"
+            android:layout_height="50dip" >
+        </ProgressBar>
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="@string/txt_query_notice"/>
+    </LinearLayout>
+
+    <!-- 无数据记录提示 -->
+
+    <LinearLayout
+        android:id="@+id/promptMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_his"
+        android:layout_centerInParent="true"
+        android:background="#fff"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/resultMessage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:gravity="center"
+            android:text="@string/legend_no_data"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    
+
+    <!-- 要显示的数据列表 -->
+
+    <ListView
+        android:id="@+id/listview"
+        style="@style/listViewStyle"
+        android:layout_below="@id/linear_his"
+        android:layout_margin="5dip"
+        />
+
+</RelativeLayout>

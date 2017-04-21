@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="menu1_default">#33CCFF</drawable>
+	<drawable name="menu1_pressed">#0099CC</drawable>
+	<drawable name="menu2_default">#8C88FF</drawable>
+	<drawable name="menu2_pressed">#6666CC</drawable>
+	<drawable name="menu3_default">#50D2C2</drawable>
+	<drawable name="menu3_pressed">#1CBFAB</drawable>
+	<drawable name="menu4_default">#FDAF27</drawable>
+	<drawable name="menu4_pressed">#FF9933</drawable>
+	<drawable name="menu5_default">#2CACFE</drawable>
+	<drawable name="menu5_pressed">#3399FF</drawable>
+</resources>

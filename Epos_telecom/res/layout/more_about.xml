@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.yifeng.skzs"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F5F6F8" >
+
+    <LinearLayout
+        android:id="@+id/top"
+        style="@style/fill_wrap_style"
+        android:background="@drawable/top_tilte_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:layout_below="@+id/top"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:orientation="vertical">
+        
+        <TextView style="@style/fill_wrap_style" 
+            android:textColor="#3D83AB"
+            android:textSize="16dip"
+            android:text="中国电信翼支付手机POS客户端 " 
+            android:layout_marginBottom="20dip"/>
+        
+        <View android:layout_height="1dip" android:layout_width="fill_parent"
+            android:background="@color/gray" />
+        
+        <TextView style="@style/fill_wrap_style" 
+            android:layout_marginTop="15dip"
+            android:layout_marginBottom="5dip"
+            android:textColor="#828282"
+            android:text="中国电信翼支付手机POS客户端 " />
+        
+        <TextView style="@style/fill_wrap_style" 
+            android:id="@+id/mTextVersion"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dip"
+            android:textColor="#828282"
+            android:text="版本：v1.0 ( Android )" />
+        
+        <TextView style="@style/fill_wrap_style" 
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dip"
+            android:textColor="#828282"
+            android:text="中国电信股份有限公司 北京研究院" />
+        
+    </LinearLayout>
+</RelativeLayout>

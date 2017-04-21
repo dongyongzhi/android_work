@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="DefaultLocale">
+        <ignore path="src/com/ctbri/domain/TransResponse.java" />
+    </issue>
+    <issue id="SimpleDateFormat">
+        <ignore path="src/com/ctbri/domain/TransResponse.java" />
+    </issue>
+    <issue id="UseSparseArrays">
+        <ignore path="src/com/yfcomm/pos/tlv/TLVCollection.java" />
+    </issue>
+</lint>

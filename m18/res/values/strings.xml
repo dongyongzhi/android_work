@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">怡丰M18  demo</string>
+    <string name="hint_deviceName">设备名称/序列号</string>
+    <string name="hint_operNo">工号</string>
+    <string name="hint_operPwd">密码</string>
+    <string name="hint_purchase_money">消费金额</string>
+    <string name="hint_TermTransNo">原交易凭证号</string>
+    <string name="hint_Batch">原批次号</string>
+    <string name="hint_TransNo">原参考号</string>
+    <string name="hint_refund_money">退货金额</string>
+    
+    
+    <string name="btn_connect">连  接</string>
+    <string name="btn_sign">签   到</string>
+    <string name="btn_purchase">消  费</string>
+    <string name="btn_ok">确定</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_queryBalance">查询余额</string>
+    <string name="btn_revoke">撤销</string>
+    <string name="btn_refund">退货</string>
+    
+    <string name="btn_writekey">写入密钥</string>
+    <string name="btn_swiping">刷卡+输入密码</string>
+    
+    <string name="action_settings">Settings</string>
+
+</resources>

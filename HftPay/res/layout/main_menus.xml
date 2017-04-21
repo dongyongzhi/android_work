@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.hftcom"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F6F6F6" >
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top_tilte_bg"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/iv_title"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/activityTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip"
+            android:text="惠付通收银台"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <!-- 滑动广告 -->
+
+    <RelativeLayout
+        android:id="@+id/advert"
+        android:layout_width="fill_parent"
+        android:layout_height="150dip"
+        android:layout_below="@+id/top" >
+
+        <com.hftcom.widget.ViewFlow
+            android:id="@+id/viewflow"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="0dip"
+            android:background="@drawable/main_advert_linebg"
+            android:gravity="center_horizontal"
+            android:padding="3dip" >
+
+            <com.hftcom.widget.CircleFlowIndicator
+                android:id="@+id/viewflowindic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:padding="2dip"
+                app:activeColor="#ff6f5a"
+                app:activeType="fill"
+                app:circleSeparation="20dip"
+                app:inactiveColor="#ffffff"
+                app:inactiveType="fill"
+                app:radius="4dip" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- 主菜单-九宫格 -->
+
+    <LinearLayout
+        android:id="@+id/gridview_abo"
+        style="@style/fill_style"
+        android:layout_above="@+id/included1"
+        android:layout_below="@id/advert"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:padding="2dip" >
+
+        <GridView
+            android:id="@+id/gridview"
+            style="@style/fill_style"
+            android:gravity="center"
+            android:numColumns="4"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/included1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dip"
+        android:gravity="center" >
+
+        <include layout="@layout/bottom_menus" />
+    </RelativeLayout>
+
+</RelativeLayout>
